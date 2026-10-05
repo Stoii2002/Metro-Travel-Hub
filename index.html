@@ -1,1292 +1,2126 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-
-
-<!-- Mirrored from mixdesign.dev/themeforest/rayo/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 22 May 2026 08:13:53 GMT -->
-<!-- Added by HTTrack -->
-<meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
-
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#050B16">
 
-<title>Metro Travel Hub | Luxury & Comfortable Travel in Kerala</title>
+<title>Metro Travel Hub | Premium Travel & Vehicle Company</title>
+<meta name="Metro Travel Hub is a trusted travel company offering tour packages, travel planning, vehicle rentals, group transportation, airport transfers and complete travel solutions across Kerala and beyond.">
+<meta
+  name="keywords"
+  content="Metro Travel Hub, Travel Agency, Travel Agency Kerala, Travel Company Kerala, Tour Operator Kerala, Kerala Tourism, Kerala Travel, Kerala Tour Packages, Holiday Packages Kerala, Customized Tour Packages, Family Tours Kerala, Group Tours Kerala, Corporate Travel Kerala, Vehicle Rental Kerala, Tourist Vehicle Rental, Vehicle Hire Kerala, Group Transportation Kerala, Airport Transfer Kerala, Travel Services Kerala, Tour and Travel Company, Travel Booking Kerala, Vacation Packages Kerala, Family Vacation Kerala, Group Travel Kerala, Premium Travel Services, Travel Planner Kerala, Kerala Trip Packages, Tourism Services Kerala, Outstation Travel Kerala"
+/>
 
-<meta name="description" content="Experience luxury, comfort, and effortless travel with Metro Travel Hub. Premium travel services, Kerala tours, airport transfers, and comfortable transportation for every journey.">
 
-<meta name="keywords" content="Metro Travel Hub, Luxury Travel, Luxury Transportation, Comfortable Travel, Premium Travel, Kerala Travel, Kerala Tours, Kerala Tourism, Kerala Tour Packages, Luxury Kerala Tours, Airport Transfers, Premium Transportation, Corporate Travel, Family Tours, Travel Services, Tourist Transportation, Kerala Holidays, Premium Travel Experience">
+<meta property="og:title" content="Velora Travels — Premium Force Urbania Rentals">
+<meta property="og:description" content="Every journey, in first class. Premium chauffeur-driven Force Urbania for families, groups and corporate travel.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%2300408A'/><path d='M28 26h13l9 30 9-30h13L56 76H44z' fill='white'/></svg>">
+<style>
+/* ============================================================
+   TOKENS & RESET
+   ============================================================ */
+:root{
+  --brand:#fe850c;
+  --brand-700:#dc6e00;
+  --brand-500:#fe850cd5;
+  --brand-400:#fe850c86;
+  --navy:#050B16;
+  --navy-2:#0A1526;
+  --navy-3:#101F35;
+  --charcoal:#12161C;
+  --off:#F6F5F2;
+  --off-2:#EDECE7;
+  --ink:#0A0D13;
+  --muted:#5D6470;
+  --white:#ffffff;
+  --radius:22px;
+  --radius-sm:14px;
+  --ease:cubic-bezier(.22,1,.36,1);
+  --shadow-lg:0 40px 80px -40px rgba(5,11,22,.55);
+  --shadow-md:0 24px 48px -28px rgba(5,11,22,.4);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{
+  margin:0;
+  font-family:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
+  font-size:16px;
+  line-height:1.65;
+  color:var(--ink);
+  background:var(--off);
+  overflow-x:hidden;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button,input,select,textarea{font:inherit;color:inherit}
+button{background:none;border:0;cursor:pointer}
+h1,h2,h3,h4,p{margin:0}
+ul{margin:0;padding:0;list-style:none}
+::selection{background:var(--brand);color:#fff}
 
-  <!-- Viewport Meta-->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+/* ============================================================
+   TYPE SYSTEM
+   ============================================================ */
+.d{
+  font-family:'Archivo',sans-serif;
+  font-weight:900;
+  letter-spacing:-.045em;
+  line-height:.92;
+  text-transform:uppercase;
+}
+.head-logo{
+  height: 60px;
+}
+.h1{font-size:clamp(2.75rem,9vw,4.4rem)}
+.h2{font-size:clamp(2rem,5.6vw,4.4rem)}
+.h3{font-size:clamp(1.35rem,2.4vw,2rem);letter-spacing:-.03em;line-height:1.02}
+.outline-txt{
+  color:transparent;
+  -webkit-text-stroke:2px rgba(255,255,255,.8);
+  text-stroke:2px rgba(255,255,255,.8);
+}
+.outline-dark{-webkit-text-stroke:2px rgba(10,13,19,.55)}
+@media (max-width:640px){.outline-txt{-webkit-text-stroke:1.4px rgba(255,255,255,.8)}}
 
-  <!-- Template Favicon & Icons Start -->
-<link rel="icon" type="image/png" href="/img/favicon-96x96.png" sizes="96x96" />
-<link rel="icon" type="image/svg+xml" href="/img/favicon.svg" />
-<link rel="shortcut icon" href="/img/favicon.ico" />
-<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png" />
-<meta name="apple-mobile-web-app-title" content="Metro Travel Hub" />
-<link rel="manifest" href="/img/site.webmanifest" />
-  <!-- Template Favicon & Icons End -->
+.eyebrow{
+  display:inline-flex;align-items:center;gap:.7rem;
+  font-size:.7rem;font-weight:600;letter-spacing:.24em;text-transform:uppercase;
+  color:var(--brand);
+}
+.eyebrow::before{content:'';width:32px;height:1px;background:currentColor;opacity:.6}
+.dark .eyebrow{color:#6FB0FF}
+.lead{font-size:clamp(1rem,1.3vw,1.12rem);color:var(--muted);max-width:60ch;line-height:1.75}
+.dark .lead{color:rgba(255,255,255,.62)}
+.mono{font-variant-numeric:tabular-nums}
 
-  <!-- Facebook Metadata Start -->
-  <meta property="og:image:height" content="1200">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:title" content="Rayo - Digital Agency & Personal Portfolio HTML Template">
-  <meta property="og:description"
-    content="Elevate your digital presence with Rayo - dynamic and stylish HTML template designed for creative agencies and personal brands. With modern layouts, smooth interactions and a polished aesthetic, Rayo template helps showcase projects, services and expertise with clarity and impact.">
-  <meta property="og:url" content="https://mixdesign.dev/themeforest/rayo">
-  <meta property="og:image" content="img/og-image.html">
-  <!-- Facebook Metadata End -->
+/* ============================================================
+   LAYOUT
+   ============================================================ */
+.wrap{width:min(1240px,90vw);margin-inline:auto}
+.wrap-wide{width:min(1480px,93vw);margin-inline:auto}
+.sec{padding:clamp(4.5rem,9vw,8.5rem) 0;position:relative}
+.sec-tight{padding:clamp(3.5rem,6vw,6rem) 0}
+.dark{background:var(--navy);color:#fff}
+.dark-2{background:var(--navy-2);color:#fff}
+.light{background:var(--off)}
+.light-2{background:var(--off-2)}
+.sec[id]{scroll-margin-top:86px}
+.sec-head{display:flex;flex-direction:column;gap:1.25rem;max-width:820px;margin-bottom:clamp(2.5rem,5vw,4.5rem)}
+.sec-head.center{margin-inline:auto;text-align:center;align-items:center}
+.divider{height:1px;background:rgba(10,13,19,.1);border:0;margin:0}
+.dark .divider{background:rgba(255,255,255,.12)}
 
-  <!-- Template Styles Start -->
-  <link rel="stylesheet" type="text/css" href="css/loaders/loader.min.css">
-  <link rel="stylesheet" type="text/css" href="css/plugins.min.css">
-  <link rel="stylesheet" type="text/css" href="css/main.min.css">
-  <!-- Template Styles End -->
+/* ============================================================
+   BUTTONS
+   ============================================================ */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:.6rem;
+  padding:1.02rem 1.9rem;border-radius:999px;
+  font-size:.9rem;font-weight:600;letter-spacing:.01em;white-space:nowrap;
+  border:1px solid transparent;cursor:pointer;
+  transition:transform .45s var(--ease),background .35s ease,color .35s ease,box-shadow .45s var(--ease),border-color .35s ease;
+}
+.btn svg{width:17px;height:17px;flex:0 0 auto;transition:transform .45s var(--ease)}
+.btn:hover svg{transform:translateX(3px)}
+.btn-primary{background:var(--brand);color:#fff;box-shadow:0 18px 36px -18px rgba(0,64,138,.85)}
+.btn-primary:hover{background:var(--brand-500);transform:translateY(-2px);box-shadow:0 26px 48px -18px rgba(10,95,196,.8)}
+.btn-ghost{border-color:rgba(255,255,255,.32);color:#fff;background:rgba(255,255,255,.06);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+.btn-ghost:hover{background:#fff;color:var(--navy);border-color:#fff;transform:translateY(-2px)}
+.btn-dark{background:var(--ink);color:#fff}
+.btn-dark:hover{background:var(--brand);transform:translateY(-2px)}
+.btn-outline{border-color:rgba(10,13,19,.2);color:var(--ink)}
+.btn-outline:hover{background:var(--ink);color:#fff;border-color:var(--ink)}
+.btn-block{width:100%}
+.btn-sm{padding:.78rem 1.4rem;font-size:.82rem}
 
-  <!-- Custom Browser Color Start -->
-  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#FAF7F6">
-  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#161616">
-  <meta name="msapplication-navbutton-color" content="#161616">
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <!-- Custom Browser Color End -->
+/* ============================================================
+   PROGRESS + NAV
+   ============================================================ */
+.progress{
+  position:fixed;top:0;left:0;height:3px;width:0;z-index:200;
+  background:linear-gradient(90deg,var(--brand-400),var(--brand));
+  transition:width .1s linear;
+}
+.nav{
+  position:fixed;inset:0 0 auto 0;z-index:150;
+  padding:1.15rem 0;
+  transition:padding .45s var(--ease),background .45s ease,backdrop-filter .45s ease,border-color .45s ease;
+  border-bottom:1px solid transparent;
+}
+.nav.scrolled{
+  padding:.55rem 0;
+  background:rgba(5,11,22,.78);
+  backdrop-filter:blur(20px) saturate(170%);
+  -webkit-backdrop-filter:blur(20px) saturate(170%);
+  border-bottom-color:rgba(255,255,255,.09);
+}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;gap:1.5rem}
+.logo{display:flex;align-items:center;gap:.7rem;color:#fff;flex:0 0 auto}
+.logo-mark{
+  width:38px;height:38px;border-radius:12px;flex:0 0 auto;
+  background:linear-gradient(140deg,var(--brand-400),var(--brand));
+  display:grid;place-items:center;
+  box-shadow:0 10px 22px -12px rgba(33,131,232,.9);
+}
+.logo-mark svg{width:20px;height:20px}
+.logo-txt{display:flex;flex-direction:column;line-height:1}
+.logo-txt b{font-family:'Archivo',sans-serif;font-weight:900;font-size:1.02rem;letter-spacing:.02em;text-transform:uppercase}
+.logo-txt span{font-size:.56rem;letter-spacing:.34em;text-transform:uppercase;opacity:.55;font-weight:500;margin-top:3px}
+.nav-links{display:flex;align-items:center;gap:.35rem}
+.nav-links a{
+  position:relative;padding:.55rem .95rem;border-radius:999px;
+  font-size:.82rem;font-weight:500;letter-spacing:.02em;color:rgba(255,255,255,.78);
+  transition:color .3s ease,background .3s ease;
+}
+.nav-links a::after{
+  content:'';position:absolute;left:50%;bottom:.28rem;width:0;height:1.5px;background:var(--brand-400);
+  transform:translateX(-50%);transition:width .4s var(--ease);
+}
+.nav-links a:hover{color:#fff}
+.nav-links a:hover::after,.nav-links a.active::after{width:16px}
+.nav-links a.active{color:#fff}
+.nav-cta{display:flex;align-items:center;gap:.6rem}
+.burger{
+  display:none;width:44px;height:44px;border-radius:50%;
+  border:1px solid rgba(255,255,255,.24);background:rgba(255,255,255,.07);
+  backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+  place-items:center;flex-direction:column;gap:5px;
+}
+.burger span{display:block;width:17px;height:1.6px;background:#fff;transition:transform .4s var(--ease),opacity .3s ease}
+.burger.open span:nth-child(1){transform:translateY(6.6px) rotate(45deg)}
+.burger.open span:nth-child(2){opacity:0}
+.burger.open span:nth-child(3){transform:translateY(-6.6px) rotate(-45deg)}
 
+.mobile-menu{
+  position:fixed;inset:0;z-index:140;
+  background:linear-gradient(160deg,#050B16 0%,#0A1526 55%,#00336E 140%);
+  padding:7rem 6vw 3rem;
+  display:flex;flex-direction:column;justify-content:space-between;gap:2rem;
+  opacity:0;visibility:hidden;transform:translateY(-14px);
+  transition:opacity .45s var(--ease),transform .55s var(--ease),visibility .45s;
+}
+.mobile-menu.open{opacity:1;visibility:visible;transform:none}
+.mobile-menu nav a{
+  display:flex;align-items:baseline;gap:1rem;
+  font-family:'Archivo',sans-serif;font-weight:800;text-transform:uppercase;
+  font-size:clamp(1.9rem,9vw,2.7rem);letter-spacing:-.03em;color:#fff;
+  padding:.55rem 0;border-bottom:1px solid rgba(255,255,255,.1);
+}
+.mobile-menu nav a i{font-size:.7rem;font-style:normal;letter-spacing:.2em;color:var(--brand-400);font-family:'Inter',sans-serif;font-weight:600}
+.mobile-foot{display:flex;flex-direction:column;gap:1rem}
+.mobile-foot .row{display:flex;gap:.6rem;flex-wrap:wrap}
+.mobile-foot a.small{font-size:.85rem;color:rgba(255,255,255,.6)}
+
+/* ============================================================
+   HERO
+   ============================================================ */
+.hero{
+  position:relative;min-height:100svh;
+  display:flex;flex-direction:column;justify-content:flex-end;
+  overflow:hidden;background:#050B16;color:#fff;
+  padding-top:7.5rem;
+}
+.hero-bg{
+  position:absolute;top:0;left:0;right:0;height:132%;
+  background-color:#e97e36;
+  background-image:
+linear-gradient(
+  190deg,
+  rgba(233, 126, 54, 0.55) 0%,
+  rgba(5, 11, 22, 0.35) 34%,
+  rgba(5, 11, 22, 0.92) 78%
+),
+url('https://cdn.outpickz.com/metro_travel_hub/1000384853.webp');
+  background-size:contain;
+  background-repeat: no-repeat;
+
+}
+.hero-scrim{
+  position:absolute;inset:0;
+  background:
+    radial-gradient(70% 55% at 12% 88%,rgba(0,64,138,.5) 0%,transparent 70%),
+    linear-gradient(to top,rgba(5,11,22,.98) 2%,rgba(5,11,22,.4) 42%,rgba(5,11,22,.6) 100%);
+  pointer-events:none;
+}
+.hero-grain{
+  position:absolute;inset:0;opacity:.35;pointer-events:none;mix-blend-mode:overlay;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)' opacity='.5'/%3E%3C/svg%3E");
+}
+.hero-content{position:relative;z-index:3;padding-bottom:clamp(2rem,5vw,3.5rem)}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(0,.85fr);gap:clamp(2rem,5vw,4.5rem);align-items:end}
+.hero h1{margin:1.35rem 0 1.6rem;max-width:22ch}
+.hero h1 .ln{display:block}
+.hero h1 .ln:nth-child(2){margin-left:.06em}
+.hero-sub{max-width:52ch;color:rgba(255,255,255,.72);font-size:clamp(1rem,1.35vw,1.12rem);line-height:1.75}
+.hero-actions{display:flex;flex-wrap:wrap;gap:.75rem;margin-top:2.2rem}
+
+.hero-card{
+  border-radius:26px;padding:1.6rem;
+  background:rgba(255,255,255,.07);
+  border:1px solid rgba(255,255,255,.16);
+  backdrop-filter:blur(22px) saturate(160%);
+  -webkit-backdrop-filter:blur(22px) saturate(160%);
+  box-shadow:0 40px 80px -40px rgba(0,0,0,.75);
+}
+.hero-card-top{display:flex;align-items:center;justify-content:space-between;gap:1rem;margin-bottom:1.1rem}
+.badge-live{
+  display:inline-flex;align-items:center;gap:.5rem;
+  font-size:.62rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;
+  padding:.42rem .78rem;border-radius:999px;
+  background:rgba(46,204,113,.14);color:#5EE39B;border:1px solid rgba(46,204,113,.3);
+}
+.badge-live i{width:6px;height:6px;border-radius:50%;background:#5EE39B;display:block;animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.4;transform:scale(.7)}}
+.hero-card h3{font-family:'Archivo',sans-serif;font-weight:900;text-transform:uppercase;letter-spacing:-.03em;font-size:1.5rem;line-height:1}
+.hero-card p{font-size:.82rem;color:rgba(255,255,255,.55);margin-top:.4rem}
+.mini-specs{display:grid;grid-template-columns:1fr 1fr;gap:.65rem;margin-top:1.3rem}
+.mini-specs div{
+  padding:.7rem .8rem;border-radius:13px;
+  background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.09);
+}
+.mini-specs b{display:block;font-family:'Archivo',sans-serif;font-size:1.05rem;font-weight:800;letter-spacing:-.02em}
+.mini-specs span{font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.45);font-weight:600}
+
+.hero-stats{
+  position:relative;z-index:3;
+  border-top:1px solid rgba(255,255,255,.14);
+  display:grid;grid-template-columns:repeat(4,1fr);
+}
+.hero-stats div{padding:1.4rem 0 1.6rem;border-right:1px solid rgba(255,255,255,.1);padding-right:1rem}
+.hero-stats div:last-child{border-right:0}
+.hero-stats b{display:block;font-family:'Archivo',sans-serif;font-size:clamp(1.35rem,2.4vw,2rem);font-weight:900;letter-spacing:-.03em;line-height:1}
+.hero-stats span{font-size:.64rem;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.42);font-weight:600;display:block;margin-top:.45rem}
+.scroll-cue{
+  position:absolute;left:50%;bottom:0;transform:translateX(-50%);
+  z-index:4;display:flex;flex-direction:column;align-items:center;gap:.5rem;
+  font-size:.55rem;letter-spacing:.3em;text-transform:uppercase;color:rgba(255,255,255,.4);
+  display:none;
+}
+.scroll-cue i{display:block;width:1px;height:46px;background:linear-gradient(to bottom,rgba(255,255,255,.5),transparent);animation:cue 2.4s var(--ease) infinite}
+@keyframes cue{0%{transform:scaleY(.2);transform-origin:top;opacity:0}40%{opacity:1}100%{transform:scaleY(1);transform-origin:top;opacity:0}}
+
+/* ============================================================
+   MARQUEE
+   ============================================================ */
+.marquee{
+  background:var(--brand);
+  color:#fff;overflow:hidden;padding:1.05rem 0;
+  position:relative;
+  border-top:1px solid rgba(255,255,255,.14);
+  border-bottom:1px solid rgba(255,255,255,.14);
+}
+.marquee-track{display:flex;width:max-content;animation:marquee 34s linear infinite}
+.marquee-group{display:flex;align-items:center;gap:2.6rem;padding-right:2.6rem}
+.marquee-group span{
+  font-family:'Archivo',sans-serif;font-weight:800;text-transform:uppercase;
+  font-size:clamp(.85rem,1.5vw,1.25rem);letter-spacing:.01em;white-space:nowrap;
+}
+.marquee-group i{width:7px;height:7px;background:rgba(255,255,255,.55);transform:rotate(45deg);display:block;flex:0 0 auto}
+@keyframes marquee{to{transform:translateX(-50%)}}
+.marquee:hover .marquee-track{animation-play-state:paused}
+
+/* ============================================================
+   INTRO
+   ============================================================ */
+.intro-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(2.5rem,6vw,6rem);align-items:center}
+.intro-media{position:relative}
+.intro-media .frame{
+  border-radius:28px;overflow:hidden;position:relative;aspect-ratio:4/4.7;
+  background:linear-gradient(150deg,#0A1526,#00336E);
+  box-shadow:var(--shadow-lg);
+}
+.intro-media .frame img{width:100%;height:100%;object-fit:cover}
+.intro-media .frame::after{
+  content:'';position:absolute;inset:0;
+  background:linear-gradient(to top,rgba(5,11,22,.65),transparent 55%);
+}
+.float-card{
+  position:absolute;left:-6%;bottom:8%;
+  background:#fff;border-radius:20px;padding:1.15rem 1.35rem;
+  box-shadow:0 34px 60px -30px rgba(5,11,22,.45);
+  display:flex;align-items:center;gap:.95rem;max-width:250px;
+}
+.float-card .ic{
+  width:42px;height:42px;border-radius:12px;flex:0 0 auto;display:grid;place-items:center;
+  background:linear-gradient(140deg,#E8F0FB,#D3E4FA);color:var(--brand);
+}
+.float-card b{display:block;font-family:'Archivo',sans-serif;font-size:1.35rem;font-weight:900;letter-spacing:-.03em;line-height:1}
+.float-card span{font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.float-badge{
+  position:absolute;right:-4%;top:7%;
+  background:var(--navy);color:#fff;border-radius:16px;padding:.85rem 1.1rem;
+  box-shadow:0 26px 50px -26px rgba(5,11,22,.7);
+  display:flex;flex-direction:column;gap:.2rem;text-align:center;
+}
+.float-badge b{font-family:'Archivo',sans-serif;font-weight:900;font-size:1.1rem;letter-spacing:-.02em}
+.float-badge span{font-size:.58rem;letter-spacing:.2em;text-transform:uppercase;opacity:.55;font-weight:600}
+.intro-copy h2{max-width:15ch;margin:1.2rem 0 1.6rem}
+.intro-copy .lead + .lead{margin-top:1rem}
+.value-list{display:grid;gap:1rem;margin-top:2.2rem}
+.value-list li{display:flex;gap:.9rem;align-items:flex-start}
+.value-list .tick{
+  width:24px;height:24px;border-radius:50%;flex:0 0 auto;margin-top:2px;
+  background:rgba(0,64,138,.09);color:var(--brand);display:grid;place-items:center;
+}
+.value-list .tick svg{width:12px;height:12px}
+.value-list b{font-weight:600;font-size:.95rem}
+.value-list p{font-size:.88rem;color:var(--muted);margin-top:.15rem}
+
+/* ============================================================
+   SHOWCASE
+   ============================================================ */
+.showcase-grid{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,.75fr);gap:clamp(2rem,4vw,3.5rem);align-items:start}
+.viewer{
+  position:relative;border-radius:26px;overflow:hidden;
+  background:linear-gradient(150deg,#0A1526,#00336E);
+  aspect-ratio:16/10.5;
+  box-shadow:0 50px 90px -50px rgba(0,0,0,.85);
+  border:1px solid rgba(255,255,255,.09);
+}
+.viewer img{
+  position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
+  opacity:0;transition:opacity .7s var(--ease),transform 1.4s var(--ease);
+  transform:scale(1.06);
+}
+.viewer img.show{opacity:1;transform:scale(1)}
+.viewer::after{
+  content:'';position:absolute;inset:0;pointer-events:none;
+  background:
+    linear-gradient(to top,rgba(5,11,22,.85) 0%,rgba(5,11,22,.06) 55%),
+    linear-gradient(120deg,rgba(0,64,138,.4),transparent 60%);
+}
+.viewer-tag{
+  position:absolute;left:1.25rem;top:1.25rem;z-index:4;
+  display:flex;align-items:center;gap:.6rem;
+  padding:.5rem .9rem;border-radius:999px;
+  background:rgba(5,11,22,.6);border:1px solid rgba(255,255,255,.16);
+  backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
+  font-size:.65rem;letter-spacing:.16em;text-transform:uppercase;font-weight:600;color:#fff;
+}
+.viewer-tag i{width:6px;height:6px;border-radius:50%;background:var(--brand-400);display:block}
+.hotspots{position:absolute;inset:0;z-index:5}
+.hotspot{
+  position:absolute;width:34px;height:34px;margin:-17px 0 0 -17px;
+  display:grid;place-items:center;border-radius:50%;
+}
+.hotspot::before{
+  content:'';position:absolute;inset:0;border-radius:50%;
+  border:1.5px solid rgba(255,255,255,.55);
+  background:rgba(33,131,232,.28);
+  backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);
+  transition:transform .45s var(--ease),background .35s ease,border-color .35s ease;
+}
+.hotspot::after{
+  content:'';position:absolute;inset:-9px;border-radius:50%;
+  border:1px solid rgba(33,131,232,.55);
+  animation:ripple 2.6s var(--ease) infinite;
+}
+@keyframes ripple{0%{transform:scale(.7);opacity:.9}70%{transform:scale(1.35);opacity:0}100%{opacity:0}}
+.hotspot i{
+  position:relative;width:9px;height:9px;border-radius:50%;background:#fff;
+  transition:transform .4s var(--ease);
+}
+.hotspot:hover::before,.hotspot.active::before{background:var(--brand-400);border-color:#fff;transform:scale(1.12)}
+.hotspot.active::after{animation:none;opacity:.9;border-color:var(--brand-400)}
+.hotspot-card{
+  position:absolute;z-index:8;width:230px;
+  padding:.95rem 1.05rem;border-radius:16px;
+  background:rgba(255,255,255,.97);color:var(--ink);
+  box-shadow:0 30px 60px -26px rgba(0,0,0,.7);
+  opacity:0;visibility:hidden;transform:translateY(6px) scale(.97);
+  transition:opacity .35s var(--ease),transform .45s var(--ease),visibility .35s;
+  pointer-events:none;
+}
+.hotspot-card.show{opacity:1;visibility:visible;transform:translateY(0) scale(1)}
+.hotspot-card b{display:block;font-family:'Archivo',sans-serif;font-weight:800;font-size:.9rem;letter-spacing:-.02em;line-height:1.15;margin-bottom:.3rem}
+.hotspot-card p{font-size:.76rem;line-height:1.5;color:var(--muted)}
+
+.showcase-side{display:flex;flex-direction:column;gap:1.5rem}
+.tabs{display:flex;gap:.4rem;flex-wrap:wrap}
+.tab{
+  padding:.62rem 1.15rem;border-radius:999px;
+  font-size:.78rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;
+  color:rgba(255,255,255,.55);border:1px solid rgba(255,255,255,.14);
+  background:rgba(255,255,255,.04);
+  transition:all .4s var(--ease);
+}
+.tab:hover{color:#fff;border-color:rgba(255,255,255,.34)}
+.tab.active{background:#fff;color:var(--navy);border-color:#fff}
+.detail-panel{
+  border-radius:22px;padding:1.6rem;
+  background:rgba(255,255,255,.045);
+  border:1px solid rgba(255,255,255,.1);
+  backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
+  min-height:210px;
+}
+.detail-panel .num{
+  font-family:'Archivo',sans-serif;font-weight:900;font-size:.72rem;letter-spacing:.22em;
+  color:var(--brand-400);text-transform:uppercase;
+}
+.detail-panel h4{font-family:'Archivo',sans-serif;font-weight:900;text-transform:uppercase;font-size:clamp(1.2rem,2vw,1.55rem);letter-spacing:-.03em;line-height:1.05;margin:.75rem 0 .6rem}
+.detail-panel p{font-size:.9rem;color:rgba(255,255,255,.6);line-height:1.68}
+.detail-nav{display:flex;gap:.5rem;margin-top:1.4rem}
+.detail-dot{
+  flex:1;height:3px;border-radius:999px;background:rgba(255,255,255,.16);
+  transition:background .4s ease;position:relative;overflow:hidden;
+}
+.detail-dot.active{background:var(--brand-400)}
+.showcase-highlights{display:grid;grid-template-columns:repeat(3,1fr);gap:.75rem;margin-top:.25rem}
+.showcase-highlights div{
+  padding:.95rem;border-radius:16px;background:rgba(255,255,255,.045);
+  border:1px solid rgba(255,255,255,.09);
+}
+.showcase-highlights b{display:block;font-family:'Archivo',sans-serif;font-weight:800;font-size:1.05rem;letter-spacing:-.02em}
+.showcase-highlights span{font-size:.6rem;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.42);font-weight:600}
+
+/* ============================================================
+   SPECS
+   ============================================================ */
+.stat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border-radius:24px;overflow:hidden;border:1px solid var(--line)}
+.stat{background:var(--off);padding:clamp(1.6rem,3vw,2.4rem);display:flex;flex-direction:column;gap:.55rem}
+.stat b{font-family:'Archivo',sans-serif;font-weight:900;font-size:clamp(2.1rem,4.2vw,3.4rem);letter-spacing:-.045em;line-height:.9;color:var(--brand)}
+.stat b em{font-style:normal;font-size:.5em;letter-spacing:0;margin-left:.12em;color:var(--muted)}
+.stat span{font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;font-weight:600;color:var(--muted)}
+.spec-table{display:grid;grid-template-columns:1fr 1fr;gap:0 clamp(2rem,5vw,5rem);margin-top:clamp(2.5rem,5vw,4rem)}
+.spec-row{
+  display:flex;align-items:baseline;justify-content:space-between;gap:1rem;
+  padding:1.05rem 0;border-bottom:1px solid var(--line);
+}
+.spec-row dt{font-size:.82rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.spec-row dd{margin:0;font-family:'Archivo',sans-serif;font-weight:700;font-size:.95rem;letter-spacing:-.01em;text-align:right}
+
+/* ============================================================
+   WHY US
+   ============================================================ */
+.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(1rem,2vw,1.5rem)}
+.why-card{
+  position:relative;background:#fff;border-radius:24px;padding:clamp(1.6rem,2.6vw,2.2rem);
+  border:1px solid rgba(10,13,19,.07);
+  overflow:hidden;
+  transition:transform .55s var(--ease),box-shadow .55s var(--ease),border-color .4s ease;
+}
+.why-card::before{
+  content:'';position:absolute;left:0;top:0;height:3px;width:0;
+  background:linear-gradient(90deg,var(--brand-400),var(--brand));
+  transition:width .6s var(--ease);
+}
+.why-card:hover{transform:translateY(-6px);box-shadow:0 40px 70px -40px rgba(5,11,22,.35);border-color:rgba(0,64,138,.2)}
+.why-card:hover::before{width:100%}
+.why-ic{
+  width:52px;height:52px;border-radius:16px;display:grid;place-items:center;
+  background:linear-gradient(140deg,#EAF1FB,#D6E5FA);color:var(--brand);
+  margin-bottom:1.35rem;transition:transform .55s var(--ease),background .4s ease;
+}
+.why-card:hover .why-ic{transform:translateY(-3px) scale(1.05);background:linear-gradient(140deg,var(--brand-400),var(--brand));color:#fff}
+.why-ic svg{width:23px;height:23px}
+.why-card h3{font-family:'Archivo',sans-serif;font-weight:800;font-size:1.06rem;letter-spacing:-.02em;line-height:1.2;text-transform:uppercase}
+.why-card p{font-size:.88rem;color:var(--muted);margin-top:.65rem;line-height:1.68}
+.why-num{
+  position:absolute;right:1.2rem;top:1rem;
+  font-family:'Archivo',sans-serif;font-weight:900;font-size:2.6rem;letter-spacing:-.05em;
+  color:rgba(10,13,19,.05);line-height:1;
+}
+
+/* ============================================================
+   EXPERIENCES
+   ============================================================ */
+.exp-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(.85rem,1.6vw,1.25rem)}
+.exp-card{
+  position:relative;border-radius:22px;overflow:hidden;
+  aspect-ratio:4/4.6;background:linear-gradient(150deg,#101F35,#00336E);
+  display:flex;align-items:flex-end;
+  isolation:isolate;
+  transition:transform .6s var(--ease);
+}
+.exp-card img{
+  position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;
+  transition:transform 1.2s var(--ease),opacity .6s ease;
+}
+.exp-card::after{
+  content:'';position:absolute;inset:0;z-index:-1;
+  background:linear-gradient(to top,rgba(5,11,22,.95) 4%,rgba(5,11,22,.35) 52%,rgba(0,64,138,.22) 100%);
+  transition:opacity .5s ease;
+}
+.exp-card:hover img{transform:scale(1.07)}
+.exp-body{padding:1.5rem;position:relative;z-index:2;width:100%}
+.exp-body b{
+  display:block;font-family:'Archivo',sans-serif;font-weight:900;text-transform:uppercase;
+  font-size:clamp(1.1rem,1.7vw,1.4rem);letter-spacing:-.03em;line-height:1.05;color:#fff;
+}
+.exp-body p{font-size:.82rem;color:rgba(255,255,255,.6);margin-top:.5rem;max-height:0;opacity:0;overflow:hidden;transition:max-height .6s var(--ease),opacity .4s ease}
+.exp-card:hover .exp-body p{max-height:80px;opacity:1}
+.exp-body .arrow{
+  margin-top:.9rem;display:inline-flex;align-items:center;gap:.45rem;
+  font-size:.66rem;letter-spacing:.18em;text-transform:uppercase;font-weight:700;color:var(--brand-400);
+}
+.exp-body .arrow svg{width:13px;height:13px;transition:transform .5s var(--ease)}
+.exp-card:hover .arrow svg{transform:translateX(4px)}
+
+/* ============================================================
+   FLEET
+   ============================================================ */
+.fleet-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(1rem,2vw,1.4rem)}
+.fleet-card{
+  background:#fff;border:1px solid rgba(10,13,19,.08);border-radius:26px;overflow:hidden;
+  transition:transform .55s var(--ease),box-shadow .55s var(--ease);
+  display:flex;flex-direction:column;
+}
+.fleet-card:hover{transform:translateY(-6px);box-shadow:0 46px 80px -46px rgba(5,11,22,.42)}
+.fleet-media{position:relative;aspect-ratio:16/10;background:linear-gradient(150deg,#0A1526,#00336E);overflow:hidden}
+.fleet-media img{width:100%;height:100%;object-fit:cover;transition:transform 1.2s var(--ease)}
+.fleet-card:hover .fleet-media img{transform:scale(1.06)}
+.fleet-chip{
+  position:absolute;left:1rem;top:1rem;
+  font-size:.58rem;letter-spacing:.18em;text-transform:uppercase;font-weight:700;
+  padding:.42rem .8rem;border-radius:999px;
+  background:rgba(255,255,255,.94);color:var(--brand);
+}
+.fleet-chip.soon{background:rgba(5,11,22,.72);color:rgba(255,255,255,.85);border:1px solid rgba(255,255,255,.2);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+.fleet-body{padding:1.5rem;display:flex;flex-direction:column;gap:.75rem;flex:1}
+.fleet-body h3{font-family:'Archivo',sans-serif;font-weight:900;text-transform:uppercase;font-size:1.3rem;letter-spacing:-.03em;line-height:1}
+.fleet-body p{font-size:.86rem;color:var(--muted);line-height:1.65}
+.fleet-tags{display:flex;flex-wrap:wrap;gap:.4rem}
+.fleet-tags span{
+  font-size:.66rem;letter-spacing:.08em;font-weight:600;text-transform:uppercase;
+  padding:.35rem .7rem;border-radius:999px;background:var(--off-2);color:var(--muted);
+}
+.fleet-foot{margin-top:auto;padding-top:.6rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;border-top:1px solid var(--line)}
+.fleet-price b{font-family:'Archivo',sans-serif;font-weight:900;font-size:1.15rem;letter-spacing:-.02em}
+.fleet-price span{font-size:.7rem;color:var(--muted);display:block;letter-spacing:.06em}
+.fleet-soon{
+  border-style:dashed;border-color:rgba(10,13,19,.18);background:transparent;
+  align-items:center;justify-content:center;text-align:center;
+  padding:clamp(2rem,4vw,3rem) 1.5rem;gap:.9rem;
+}
+.fleet-soon:hover{transform:none;box-shadow:none;border-color:var(--brand)}
+.fleet-soon .plus{
+  width:52px;height:52px;border-radius:50%;display:grid;place-items:center;
+  background:rgba(0,64,138,.08);color:var(--brand);margin-bottom:.2rem;
+}
+.fleet-soon h3{font-size:1.05rem;color:var(--ink)}
+.fleet-soon p{max-width:30ch}
+
+/* ============================================================
+   TESTIMONIALS
+   ============================================================ */
+.tst-viewport{overflow:hidden;border-radius:26px}
+.tst-track{display:flex;transition:transform .8s var(--ease)}
+.tst{
+  flex:0 0 100%;
+  background:#fff;border-radius:26px;padding:clamp(2rem,4vw,3.4rem);
+  border:1px solid rgba(10,13,19,.07);
+  display:grid;grid-template-columns:minmax(0,1fr) auto;gap:clamp(1.5rem,4vw,4rem);align-items:center;
+  min-height:290px;
+}
+.tst-stars{display:flex;gap:.25rem;color:#F5A623;margin-bottom:1.2rem}
+.tst-stars svg{width:16px;height:16px}
+.tst-quote{
+  font-family:'Archivo',sans-serif;font-weight:700;letter-spacing:-.025em;
+  font-size:clamp(1.1rem,2.1vw,1.65rem);line-height:1.35;text-transform:none;
+}
+.tst-quote::before{content:'“';color:var(--brand);font-size:1.6em;line-height:0;vertical-align:-.24em;margin-right:.1em}
+.tst-author{display:flex;align-items:center;gap:.9rem;margin-top:1.8rem}
+.tst-av{
+  width:46px;height:46px;border-radius:50%;flex:0 0 auto;display:grid;place-items:center;
+  background:linear-gradient(140deg,var(--brand-400),var(--brand));color:#fff;
+  font-family:'Archivo',sans-serif;font-weight:800;font-size:.9rem;letter-spacing:.02em;
+}
+.tst-author b{display:block;font-size:.92rem;font-weight:600}
+.tst-author span{font-size:.76rem;color:var(--muted)}
+.tst-meta{text-align:right;display:flex;flex-direction:column;gap:.35rem;align-items:flex-end}
+.tst-meta .tag{
+  font-size:.6rem;letter-spacing:.18em;text-transform:uppercase;font-weight:700;
+  color:var(--brand);background:rgba(0,64,138,.08);padding:.4rem .75rem;border-radius:999px;
+}
+.tst-meta .big{font-family:'Archivo',sans-serif;font-weight:900;font-size:2.6rem;letter-spacing:-.05em;line-height:1;color:var(--off-2)}
+.tst-controls{display:flex;align-items:center;justify-content:space-between;gap:1rem;margin-top:1.8rem}
+.tst-dots{display:flex;gap:.5rem}
+.tst-dot{width:28px;height:3px;border-radius:999px;background:rgba(10,13,19,.15);transition:background .4s ease,width .4s var(--ease)}
+.tst-dot.active{background:var(--brand);width:46px}
+.tst-arrows{display:flex;gap:.5rem}
+.tst-arrow{
+  width:46px;height:46px;border-radius:50%;border:1px solid rgba(10,13,19,.15);
+  display:grid;place-items:center;color:var(--ink);
+  transition:all .4s var(--ease);
+}
+.tst-arrow:hover{background:var(--brand);color:#fff;border-color:var(--brand);transform:translateY(-2px)}
+.tst-arrow svg{width:17px;height:17px}
+
+/* ============================================================
+   BOOKING
+   ============================================================ */
+.book-grid{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:clamp(2rem,5vw,4.5rem);align-items:start}
+.book-info h2{margin:1.2rem 0 1.4rem;max-width:12ch}
+.book-points{display:grid;gap:1.1rem;margin-top:2.2rem}
+.book-points li{display:flex;gap:.9rem;align-items:flex-start}
+.book-points .ic{
+  width:40px;height:40px;border-radius:12px;flex:0 0 auto;display:grid;place-items:center;
+  background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);color:var(--brand-400);
+}
+.book-points .ic svg{width:18px;height:18px}
+.book-points b{display:block;font-size:.92rem;font-weight:600;color:#fff}
+.book-points p{font-size:.82rem;color:rgba(255,255,255,.55);margin-top:.1rem}
+.contact-strip{
+  margin-top:2.4rem;padding-top:2rem;border-top:1px solid rgba(255,255,255,.12);
+  display:flex;flex-wrap:wrap;gap:1.6rem;
+}
+.contact-strip a{display:flex;align-items:center;gap:.7rem;font-size:.86rem;color:rgba(255,255,255,.75)}
+.contact-strip a:hover{color:#fff}
+.contact-strip .ic{width:36px;height:36px;border-radius:10px;background:rgba(255,255,255,.07);display:grid;place-items:center;color:var(--brand-400)}
+.contact-strip .ic svg{width:16px;height:16px}
+.contact-strip b{display:block;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.4);font-weight:600}
+.contact-strip span{font-size:.88rem}
+
+.form-card{
+  border-radius:28px;padding:clamp(1.5rem,3vw,2.4rem);
+  background:rgba(255,255,255,.055);
+  border:1px solid rgba(255,255,255,.13);
+  backdrop-filter:blur(22px) saturate(160%);
+  -webkit-backdrop-filter:blur(22px) saturate(160%);
+  box-shadow:0 50px 90px -50px rgba(0,0,0,.9);
+}
+.form-card h3{font-family:'Archivo',sans-serif;font-weight:900;text-transform:uppercase;font-size:1.25rem;letter-spacing:-.03em}
+.form-card > p{font-size:.83rem;color:rgba(255,255,255,.5);margin-top:.4rem}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:.9rem;margin-top:1.6rem}
+.field{display:flex;flex-direction:column;gap:.42rem}
+.field.full{grid-column:1/-1}
+.field label{font-size:.63rem;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:rgba(255,255,255,.45)}
+.field input,.field select,.field textarea{
+  width:100%;padding:.85rem 1rem;border-radius:13px;
+  background:rgba(255,255,255,.06);
+  border:1px solid rgba(255,255,255,.13);
+  color:#fff;font-size:.9rem;
+  transition:border-color .3s ease,background .3s ease,box-shadow .3s ease;
+  outline:none;
+}
+.field select{appearance:none;-webkit-appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ffffff' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 1rem center;background-size:15px;padding-right:2.5rem}
+.field select option{background:#0A1526;color:#fff}
+.field input::placeholder,.field textarea::placeholder{color:rgba(255,255,255,.3)}
+.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--brand-400);background:rgba(255,255,255,.1);box-shadow:0 0 0 4px rgba(33,131,232,.14)}
+.field.error input,.field.error select{border-color:#FF6B6B;background:rgba(255,107,107,.08)}
+.field .err{font-size:.68rem;color:#FF8F8F;display:none}
+.field.error .err{display:block}
+.form-actions{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1.6rem}
+.form-note{font-size:.7rem;color:rgba(255,255,255,.35);margin-top:1rem;line-height:1.6}
+.form-success{
+  display:none;align-items:center;gap:.7rem;margin-top:1.1rem;padding:.9rem 1.1rem;border-radius:14px;
+  background:rgba(46,204,113,.12);border:1px solid rgba(46,204,113,.3);color:#7BF0B4;font-size:.85rem;
+}
+.form-success.show{display:flex}
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+.footer{background:#03070E;color:#fff;padding:clamp(3.5rem,7vw,6rem) 0 2rem;position:relative;overflow:hidden}
+.footer::before{
+  content:'';position:absolute;top:-40%;left:50%;transform:translateX(-50%);
+  width:1100px;height:620px;border-radius:50%;
+  background:radial-gradient(circle,rgba(0,64,138,.5),transparent 68%);
+  pointer-events:none;filter:blur(20px);
+}
+.footer-grid{position:relative;display:grid;grid-template-columns:1.5fr 1fr 1fr 1.2fr;gap:clamp(1.8rem,4vw,3.5rem);padding-bottom:3rem;border-bottom:1px solid rgba(255,255,255,.1)}
+.footer h4{font-size:.68rem;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.4);font-weight:700;margin-bottom:1.2rem}
+.footer-links{display:grid;gap:.7rem}
+.footer-links a{font-size:.88rem;color:rgba(255,255,255,.68);transition:color .3s ease,transform .4s var(--ease);display:inline-block}
+.footer-links a:hover{color:#fff;transform:translateX(3px)}
+.footer-about p{font-size:.88rem;color:rgba(255,255,255,.55);max-width:36ch;margin-top:1.2rem;line-height:1.7}
+.socials{display:flex;gap:.55rem;margin-top:1.5rem}
+.socials a{
+  width:40px;height:40px;border-radius:12px;display:grid;place-items:center;
+  background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);color:rgba(255,255,255,.75);
+  transition:all .4s var(--ease);
+}
+.socials a:hover{background:var(--brand);color:#fff;transform:translateY(-3px);border-color:var(--brand)}
+.socials svg{width:17px;height:17px}
+.footer-bottom{
+  position:relative;display:flex;flex-wrap:wrap;gap:1rem;justify-content:space-between;align-items:center;
+  padding-top:1.8rem;font-size:.78rem;color:rgba(255,255,255,.4);
+}
+.footer-bottom .legal{display:flex;gap:1.4rem;flex-wrap:wrap}
+.footer-bottom a:hover{color:#fff}
+.footer-big{
+  position:relative;font-family:'Archivo',sans-serif;font-weight:900;text-transform:uppercase;
+  font-size:clamp(2.6rem,12vw,10rem);letter-spacing:-.05em;line-height:1;
+  color:transparent;-webkit-text-stroke:1px rgba(255,255,255,.1);
+  margin-top:2.5rem;user-select:none;pointer-events:none;white-space:nowrap;
+}
+
+/* ============================================================
+   FLOATING ACTIONS
+   ============================================================ */
+.wa-float{
+  position:fixed;right:clamp(1rem,3vw,1.75rem);bottom:clamp(1rem,3vw,1.75rem);z-index:120;
+  display:flex;align-items:center;gap:.7rem;
+}
+.wa-label{
+  background:rgba(5,11,22,.9);color:#fff;font-size:.78rem;font-weight:500;
+  padding:.6rem .95rem;border-radius:999px;white-space:nowrap;
+  border:1px solid rgba(255,255,255,.12);
+  backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
+  opacity:0;transform:translateX(8px);pointer-events:none;
+  transition:opacity .4s var(--ease),transform .5s var(--ease);
+}
+.wa-float:hover .wa-label{opacity:1;transform:none}
+.wa-btn{
+  position:relative;width:58px;height:58px;border-radius:50%;display:grid;place-items:center;
+  background:#25D366;color:#fff;
+  box-shadow:0 18px 36px -14px rgba(37,211,102,.8);
+  transition:transform .45s var(--ease),box-shadow .45s var(--ease);
+}
+.wa-btn:hover{transform:scale(1.07) translateY(-2px);box-shadow:0 24px 44px -14px rgba(37,211,102,.9)}
+.wa-btn svg{width:29px;height:29px}
+.wa-btn::before{
+  content:'';position:absolute;inset:0;border-radius:50%;
+  border:2px solid rgba(37,211,102,.75);
+  animation:waPulse 2.6s var(--ease) infinite;
+}
+@keyframes waPulse{0%{transform:scale(1);opacity:.8}100%{transform:scale(1.75);opacity:0}}
+
+.to-top{
+  position:fixed;right:clamp(1rem,3vw,1.75rem);bottom:calc(clamp(1rem,3vw,1.75rem) + 70px);z-index:120;
+  width:44px;height:44px;border-radius:50%;display:grid;place-items:center;
+  background:rgba(5,11,22,.82);color:#fff;border:1px solid rgba(255,255,255,.14);
+  backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
+  opacity:0;visibility:hidden;transform:translateY(8px);
+  transition:all .45s var(--ease);
+}
+.to-top.show{opacity:1;visibility:visible;transform:none}
+.to-top:hover{background:var(--brand);border-color:var(--brand)}
+.to-top svg{width:17px;height:17px}
+
+/* ============================================================
+   REVEAL ANIMATIONS
+   ============================================================ */
+.reveal{opacity:0;transform:translateY(30px);transition:opacity 1s var(--ease),transform 1s var(--ease)}
+.reveal.in{opacity:1;transform:none}
+.reveal-s{opacity:0;transform:translateY(18px) scale(.98);transition:opacity .9s var(--ease),transform .9s var(--ease)}
+.reveal-s.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){
+  *{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important}
+  html{scroll-behavior:auto}
+  .reveal,.reveal-s{opacity:1;transform:none}
+}
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+@media (max-width:1080px){
+  .nav-links{display:none}
+  .nav-cta .btn{display:none}
+  .burger{display:flex}
+  .hero-grid{grid-template-columns:1fr;align-items:start}
+  .hero-card{max-width:420px}
+  .intro-grid{grid-template-columns:1fr;gap:3rem}
+  .intro-media{max-width:520px}
+  .showcase-grid{grid-template-columns:1fr}
+  .fleet-grid{grid-template-columns:1fr 1fr}
+  .book-grid{grid-template-columns:1fr}
+  .footer-grid{grid-template-columns:1fr 1fr}
+  .why-grid{grid-template-columns:1fr 1fr}
+  .exp-grid{grid-template-columns:1fr 1fr}
+}
+@media (max-width:760px){
+  .hero{min-height:auto;padding-top:8.5rem;padding-bottom:1.5rem}
+  .hero-bg{height:125%}
+  .hero-card{display:none}
+  .hero-stats{grid-template-columns:1fr 1fr;border-top:1px solid rgba(255,255,255,.14);margin-top:2.5rem}
+  .hero-stats div:nth-child(2n){border-right:0}
+  .hero-stats div:nth-child(-n+2){border-bottom:1px solid rgba(255,255,255,.1)}
+  .stat-grid{grid-template-columns:1fr 1fr}
+  .spec-table{grid-template-columns:1fr;gap:0}
+  .why-grid{grid-template-columns:1fr}
+  .exp-grid{grid-template-columns:1fr}
+  .exp-card{aspect-ratio:16/10}
+  .exp-body p{max-height:80px;opacity:1}
+  .fleet-grid{grid-template-columns:1fr}
+  .tst{grid-template-columns:1fr;min-height:0}
+  .tst-meta{align-items:flex-start;text-align:left;flex-direction:row;gap:.9rem;align-items:center;margin-top:1.4rem}
+  .tst-meta .big{display:none}
+  .form-grid{grid-template-columns:1fr}
+  .footer-grid{grid-template-columns:1fr}
+  .float-card{left:0;bottom:-1.5rem;padding:.9rem 1.1rem;max-width:220px}
+  .float-badge{right:0;top:-1rem}
+  .float-card .ic{width:36px;height:36px}
+  .float-card b{font-size:1.1rem}
+  .showcase-highlights{grid-template-columns:1fr 1fr}
+  .hotspot{width:30px;height:30px;margin:-15px 0 0 -15px}
+  .hotspot-card{width:190px;padding:.8rem .9rem}
+  .hotspot-card b{font-size:.8rem}
+  .hotspot-card p{font-size:.7rem}
+  .wa-label{display:none}
+}
+@media (max-width:460px){
+  .hero-actions .btn{width:100%}
+  .showcase-highlights{grid-template-columns:1fr}
+  .mini-specs{grid-template-columns:1fr 1fr}
+  .contact-strip{gap:1rem}
+}
+</style>
 </head>
-
 <body>
 
-  <!-- Loader Start -->
-  <div id="loader" class="loader">
-    <div class="loader__wrapper">
-      <div class="loader__content">
-        <div class="loader__count">
-          <span class="count__text">0</span>
-          <span class="count__percent">%</span>
+<div class="progress" id="progress"></div>
+
+<!-- ============================ NAV ============================ -->
+<header class="nav" id="nav">
+  <div class="wrap nav-inner">
+    <a href="#home" class="logo" aria-label="Velora Travels home">
+      <img class="head-logo" src="https://cdn.outpickz.com/metro_travel_hub/Metro%20travel%20hub%20.png">
+    </a>
+
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#fleet">Fleet</a>
+      <a href="#showcase">The Urbania</a>
+      <a href="#specs">Specs</a>
+      <a href="#experiences">Experiences</a>
+      <a href="#reviews">Reviews</a>
+    </nav>
+
+    <div class="nav-cta">
+      <a href="#booking" class="btn btn-primary btn-sm">Book Now
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ============================ MOBILE MENU ============================ -->
+<div class="mobile-menu" id="mobileMenu">
+  <nav aria-label="Mobile">
+    <a href="#fleet"><i>01</i>Fleet</a>
+    <a href="#showcase"><i>02</i>The Urbania</a>
+    <a href="#specs"><i>03</i>Specs</a>
+    <a href="#experiences"><i>04</i>Experiences</a>
+    <a href="#reviews"><i>05</i>Reviews</a>
+    <a href="#booking"><i>06</i>Book Now</a>
+  </nav>
+  <div class="mobile-foot">
+    <div class="row">
+      <a href="#booking" class="btn btn-primary" style="flex:1">Book Your Journey</a>
+    </div>
+    <a class="small" href="tel:+919876543210">+91 98765 43210</a>
+    <a class="small" href="mailto:hello@veloratravels.com">hello@veloratravels.com</a>
+  </div>
+</div>
+
+<main>
+
+<!-- ============================ HERO ============================ -->
+<section class="hero" id="home">
+  <div class="hero-bg" id="heroBg" aria-hidden="true"></div>
+  <div class="hero-scrim" aria-hidden="true"></div>
+  <div class="hero-grain" aria-hidden="true"></div>
+
+  <div class="hero-content wrap">
+    <div class="hero-grid">
+      <div>
+        <span class="eyebrow reveal" style="color:#7CB5FF">Premium Vehicle Rental &amp; Travel</span>
+        <h1 class="d h1 reveal" style="transition-delay:.08s">
+          <span class="ln">Every journey,</span>
+          <span class="ln outline-txt">in first class.</span>
+        </h1>
+        <p class="hero-sub reveal" style="transition-delay:.16s">
+          The Force Urbania — a chauffeured 17-seat luxury tourer with 2×1 reclining seats,
+          dual-zone climate control and limousine-level comfort. Built for families, corporate
+          teams and long open roads.
+        </p>
+        <div class="hero-actions reveal" style="transition-delay:.24s">
+          <a href="#booking" class="btn btn-primary">
+            Book Your Journey
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a href="#showcase" class="btn btn-ghost">Explore the Urbania</a>
         </div>
+      </div>
+
+      <aside class="hero-card reveal-s" style="transition-delay:.32s" aria-label="Vehicle availability">
+        <div class="hero-card-top">
+          <span class="badge-live"><i></i>Available Now</span>
+          <span style="font-size:.62rem;letter-spacing:.18em;text-transform:uppercase;color:rgba(255,255,255,.4);font-weight:600">01 / 01</span>
+        </div>
+        <h3>Force Urbania</h3>
+        <p>Flagship tourer · Chauffeur driven · Pan-India</p>
+        <div class="mini-specs">
+          <div><b>17</b><span>Seats</span></div>
+          <div><b>2×1</b><span>Recliners</span></div>
+          <div><b>Dual</b><span>Climate AC</span></div>
+          <div><b>24×7</b><span>Support</span></div>
+        </div>
+      </aside>
+    </div>
+  </div>
+
+  <div class="hero-stats wrap-wide" role="list">
+    <div role="listitem"><b>17</b><span>Pushback Seats</span></div>
+    <div role="listitem"><b>350<small style="font-size:.5em"> Nm</small></b><span>Effortless Torque</span></div>
+    <div role="listitem"><b>4.9<small style="font-size:.5em">★</small></b><span>Guest Rating</span></div>
+    <div role="listitem"><b>12K+</b><span>Kilometres Monthly</span></div>
+  </div>
+</section>
+
+<!-- ============================ MARQUEE ============================ -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <div class="marquee-group">
+      <span>Airport Transfers</span><i></i>
+      <span>Corporate Travel</span><i></i>
+      <span>Weddings &amp; Events</span><i></i>
+      <span>Family Holidays</span><i></i>
+      <span>Sightseeing Tours</span><i></i>
+      <span>Long-Distance Journeys</span><i></i>
+    </div>
+    <div class="marquee-group">
+      <span>Airport Transfers</span><i></i>
+      <span>Corporate Travel</span><i></i>
+      <span>Weddings &amp; Events</span><i></i>
+      <span>Family Holidays</span><i></i>
+      <span>Sightseeing Tours</span><i></i>
+      <span>Long-Distance Journeys</span><i></i>
+    </div>
+  </div>
+</div>
+
+<!-- ============================ INTRO ============================ -->
+<section class="sec light" id="about">
+  <div class="wrap intro-grid">
+    <div class="intro-media reveal">
+      <div class="frame">
+        <img src="https://images.unsplash.com/photo-1539635278303-d4002c07eae3?auto=format&fit=crop&w=1200&q=80"
+             alt="Travellers sharing a premium group journey" loading="lazy" onerror="this.style.display='none'">
+      </div>
+      <div class="float-card">
+        <span class="ic" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17h18M5 17V9l2-3h10l2 3v8"/><circle cx="7.5" cy="17.5" r="1.5"/><circle cx="16.5" cy="17.5" r="1.5"/></svg>
+        </span>
+        <span><b>1</b><span>Flagship Vehicle</span></span>
+      </div>
+      <div class="float-badge">
+        <b>Since 2018</b>
+        <span>Trusted Journeys</span>
+      </div>
+    </div>
+
+    <div class="intro-copy reveal" style="transition-delay:.1s">
+      <span class="eyebrow">Who We Are</span>
+      <h2 class="d h2">Not a taxi.<br>A travel experience.</h2>
+      <p class="lead">
+        Velora Travels is a premium chauffeur-driven travel company built around one obsession:
+        making the journey as memorable as the destination. Our fleet currently features a single,
+        immaculately maintained flagship — the Force Urbania — looked after like a private aircraft.
+      </p>
+      <p class="lead" style="margin-top:1rem">
+        We keep our fleet deliberately small so every guest receives the same standard of care:
+        a professionally trained chauffeur, spotless interiors, punctual pickups and pricing
+        agreed before you ever step in.
+      </p>
+
+      <ul class="value-list">
+        <li>
+          <span class="tick" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span>
+          <span><b>Fleet of one, standard of many</b><p>Every vehicle we add must match the Urbania's benchmark — no exceptions.</p></span>
+        </li>
+        <li>
+          <span class="tick" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span>
+          <span><b>Chauffeurs, not drivers</b><p>Uniformed, route-trained and briefed on your itinerary before departure.</p></span>
+        </li>
+        <li>
+          <span class="tick" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span>
+          <span><b>Designed to grow with you</b><p>Our platform is built to add new vehicles — and new ways to travel — quickly.</p></span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ SHOWCASE ============================ -->
+<section class="sec dark" id="showcase">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Fleet — 01 Flagship</span>
+      <h2 class="d h2">Meet the<br><span class="outline-txt">Force Urbania</span></h2>
+      <p class="lead">
+        A modern monocoque tourer engineered for long-distance comfort. Explore the exterior,
+        the cabin and the comfort features below — tap any marker to learn more.
+      </p>
+    </div>
+
+    <div class="showcase-grid">
+      <!-- Viewer -->
+      <div class="reveal-s">
+        <div class="viewer" id="viewer">
+          <span class="viewer-tag"><i></i><span id="viewerTag">Exterior</span></span>
+          <img id="viewerImgA" class="show" alt="Force Urbania exterior view" src="https://cdn.outpickz.com/metro_travel_hub/1000422964%20(1).webp" onerror="this.style.display='none'">
+          <img id="viewerImgB" alt="Force Urbania interior view" onerror="this.style.display='none'">
+          <div class="hotspots" id="hotspots"></div>
+          <div class="hotspot-card" id="hotspotCard">
+            <b id="hcTitle">Title</b>
+            <p id="hcText">Description</p>
+          </div>
+        </div>
+
+        <div class="showcase-highlights" style="margin-top:1.1rem">
+          <div><b>Monocoque</b><span>Body Construction</span></div>
+          <div><b>2×1</b><span>Pushback Layout</span></div>
+          <div><b>Panoramic</b><span>Tinted Glazing</span></div>
+        </div>
+      </div>
+
+      <!-- Side panel -->
+      <div class="showcase-side">
+        <div class="tabs" id="tabs" role="tablist" aria-label="Vehicle views">
+          <button class="tab active" data-view="exterior" role="tab" aria-selected="true">Exterior</button>
+          <button class="tab" data-view="cabin" role="tab" aria-selected="false">Cabin</button>
+          <button class="tab" data-view="comfort" role="tab" aria-selected="false">Comfort</button>
+        </div>
+
+        <div class="detail-panel">
+          <span class="num" id="dpNum">01 / 04</span>
+          <h4 id="dpTitle">Twin-Projector Headlamps</h4>
+          <p id="dpText">Sharp, wide-beam illumination that turns night driving on highways into a confident, calm experience.</p>
+          <div class="detail-nav" id="detailNav" aria-hidden="true"></div>
+        </div>
+
+        <a href="#booking" class="btn btn-primary btn-block">
+          Reserve This Vehicle
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
       </div>
     </div>
   </div>
-  <!-- Loader End -->
+</section>
 
-  <!-- Menu & Menu Hamburger Start -->
-  <nav class="mxd-nav__wrap" data-lenis-prevent="">
+<!-- ============================ SPECS ============================ -->
+<section class="sec light" id="specs">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Specifications</span>
+      <h2 class="d h2">Built for the<br>long road.</h2>
+      <p class="lead">
+        Figures that translate directly into comfort: more torque for hill roads, more space
+        for people you love, and a cabin that stays quiet at cruising speed.
+      </p>
+    </div>
 
+    <div class="stat-grid reveal-s">
+      <div class="stat"><b><span class="mono count" data-count="17">0</span></b><span>Seats — 2×1 Layout</span></div>
+      <div class="stat"><b><span class="mono count" data-count="115">0</span><em>PS</em></b><span>Max Power</span></div>
+      <div class="stat"><b><span class="mono count" data-count="350">0</span><em>Nm</em></b><span>Peak Torque</span></div>
+      <div class="stat"><b><span class="mono count" data-count="2.6" data-dec="1">0</span><em>L</em></b><span>CR Diesel Engine</span></div>
+    </div>
 
-    <!-- <div class="mxd-nav__contain loading__fade">
-      <a href="#0" class="mxd-nav__hamburger" aria-label="Menu">
-    
-        <div class="hamburger__base"></div>
-        <div class="hamburger__line"></div>
-        <div class="hamburger__line"></div>
-      </a>
-    </div> -->
- 
+    <dl class="spec-table reveal" style="transition-delay:.1s">
+      <div class="spec-row"><dt>Engine</dt><dd>2.6L FM2.6 CR Turbo Diesel</dd></div>
+      <div class="spec-row"><dt>Transmission</dt><dd>5-Speed Manual</dd></div>
+      <div class="spec-row"><dt>Seating</dt><dd>13 – 17 (2×1 Recliners)</dd></div>
+      <div class="spec-row"><dt>Climate</dt><dd>Dual-Zone Air Conditioning</dd></div>
+      <div class="spec-row"><dt>Body</dt><dd>Monocoque Steel Shell</dd></div>
+      <div class="spec-row"><dt>Suspension</dt><dd>Independent Front, Parabolic Rear</dd></div>
+      <div class="spec-row"><dt>Luggage</dt><dd>Dedicated Rear Boot Bay</dd></div>
+      <div class="spec-row"><dt>Safety</dt><dd>ABS, EBD, Reverse Sensors</dd></div>
+      <div class="spec-row"><dt>Entertainment</dt><dd>Touchscreen + Rear Speakers</dd></div>
+      <div class="spec-row"><dt>Charging</dt><dd>USB Ports at Every Row</dd></div>
+    </dl>
+  </div>
+</section>
 
-    <!-- Main Navigation Start -->
-    <div class="mxd-menu__wrapper">
-      <!-- background active layer -->
-      <div class="mxd-menu__base"></div>
-      <!-- menu container -->
-      <div class="mxd-menu__contain">
-        <div class="mxd-menu__inner">
-          <!-- left side -->
-          <div class="mxd-menu__left">
-            <p class="mxd-menu__caption menu-fade-in">🦄 Innovative design<br>and cutting-edge development</p>
-            <div class="main-menu">
-              <nav class="main-menu__content">
-                <ul id="main-menu" class="main-menu__accordion">
-                  <li class="main-menu__item">
-                    <div class="main-menu__toggle">
-                      <span class="main-menu__link btn btn-anim">
-                        <span class="btn-caption">Home</span>
-                      </span>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" version="1.1" viewBox="0 0 20 20">
-                        <path
-                          d="M19.6,9.6h-3.9c-.4,0-1.8-.2-1.8-.2-.6,0-1.1-.2-1.6-.6-.5-.3-.9-.8-1.2-1.2-.3-.4-.4-.9-.5-1.4,0,0,0-1.1-.2-1.5V.4c0-.2-.2-.4-.4-.4s-.4.2-.4.4v4.4c0,.4-.2,1.5-.2,1.5,0,.5-.2,1-.5,1.4-.3.5-.7.9-1.2,1.2s-1,.5-1.6.6c0,0-1.2,0-1.7.2H.4c-.2,0-.4.2-.4.4s.2.4.4.4h4.1c.4,0,1.7.2,1.7.2.6,0,1.1.2,1.6.6.4.3.8.7,1.1,1.1.3.5.5,1,.6,1.6,0,0,0,1.3.2,1.7v4.1c0,.2.2.4.4.4s.4-.2.4-.4v-4.1c0-.4.2-1.7.2-1.7,0-.6.2-1.1.6-1.6.3-.4.7-.8,1.1-1.1.5-.3,1-.5,1.6-.6,0,0,1.3,0,1.8-.2h3.9c.2,0,.4-.2.4-.4s-.2-.4-.4-.4h0Z" />
-                      </svg>
-                    </div>
-                    <ul class="submenu">
-                      <li class="submenu__item">
-                        <a href="index-main.html">Main home</a>
-                      </li>
-                      <li class="submenu__item">
-                        <a href="index-software-development-company.html">Software development company</a>
-                      </li>
-                      <li class="submenu__item">
-                        <a href="index-freelancer-portfolio.html">Freelancer portfolio</a>
-                      </li>
-                      <li class="submenu__item">
-                        <a href="index-digital-agency.html">Digital agency</a>
-                      </li>
-                      <li class="submenu__item">
-                        <a href="index-creative-design-studio.html">Creative design studio</a>
-                      </li>
-                      <li class="submenu__item">
-                        <a href="index-personal-portfolio.html">Personal portfolio</a>
-                      </li>
-                      <li class="submenu__item">
-                        <a href="index-web-agency.html">Web agency</a>
-                      </li>
-                      <li class="submenu__item">
-                        <a href="index-creative-developer.html">Creative developer</a>
-                      </li>
-                      <li class="submenu__item">
-                        <a href="index-designer.html">Designer</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="main-menu__item">
-                    <div class="main-menu__toggle">
-                      <span class="main-menu__link btn btn-anim">
-                        <span class="btn-caption">Works</span>
-                      </span>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" version="1.1" viewBox="0 0 20 20">
-                        <path
-                          d="M19.6,9.6h-3.9c-.4,0-1.8-.2-1.8-.2-.6,0-1.1-.2-1.6-.6-.5-.3-.9-.8-1.2-1.2-.3-.4-.4-.9-.5-1.4,0,0,0-1.1-.2-1.5V.4c0-.2-.2-.4-.4-.4s-.4.2-.4.4v4.4c0,.4-.2,1.5-.2,1.5,0,.5-.2,1-.5,1.4-.3.5-.7.9-1.2,1.2s-1,.5-1.6.6c0,0-1.2,0-1.7.2H.4c-.2,0-.4.2-.4.4s.2.4.4.4h4.1c.4,0,1.7.2,1.7.2.6,0,1.1.2,1.6.6.4.3.8.7,1.1,1.1.3.5.5,1,.6,1.6,0,0,0,1.3.2,1.7v4.1c0,.2.2.4.4.4s.4-.2.4-.4v-4.1c0-.4.2-1.7.2-1.7,0-.6.2-1.1.6-1.6.3-.4.7-.8,1.1-1.1.5-.3,1-.5,1.6-.6,0,0,1.3,0,1.8-.2h3.9c.2,0,.4-.2.4-.4s-.2-.4-.4-.4h0Z" />
-                      </svg>
-                    </div>
-                    <ul class="submenu">
-                      <li class="submenu__item">
-                        <a href="works-simple.html">Portfolio</a>
-                      </li>
-                      <li class="submenu__item">
-                        <a href="works-masonry.html">Works masonry</a>
-                      </li>
-                      <li class="submenu__item">
-                        <a href="project-details.html">Project details</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="main-menu__item">
-                    <div class="main-menu__toggle">
-                      <span class="main-menu__link btn btn-anim">
-                        <span class="btn-caption">Pages</span>
-                      </span>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" version="1.1" viewBox="0 0 20 20">
-                        <path
-                          d="M19.6,9.6h-3.9c-.4,0-1.8-.2-1.8-.2-.6,0-1.1-.2-1.6-.6-.5-.3-.9-.8-1.2-1.2-.3-.4-.4-.9-.5-1.4,0,0,0-1.1-.2-1.5V.4c0-.2-.2-.4-.4-.4s-.4.2-.4.4v4.4c0,.4-.2,1.5-.2,1.5,0,.5-.2,1-.5,1.4-.3.5-.7.9-1.2,1.2s-1,.5-1.6.6c0,0-1.2,0-1.7.2H.4c-.2,0-.4.2-.4.4s.2.4.4.4h4.1c.4,0,1.7.2,1.7.2.6,0,1.1.2,1.6.6.4.3.8.7,1.1,1.1.3.5.5,1,.6,1.6,0,0,0,1.3.2,1.7v4.1c0,.2.2.4.4.4s.4-.2.4-.4v-4.1c0-.4.2-1.7.2-1.7,0-.6.2-1.1.6-1.6.3-.4.7-.8,1.1-1.1.5-.3,1-.5,1.6-.6,0,0,1.3,0,1.8-.2h3.9c.2,0,.4-.2.4-.4s-.2-.4-.4-.4h0Z" />
-                      </svg>
-                    </div>
-                    <ul class="submenu">
-                      <li class="submenu__item">
-                        <a href="about-me.html">About me</a>
-                      </li>
-                      <li class="submenu__item">
-                        <a href="about-us.html">About us</a>
-                      </li>
-                      <li class="submenu__item">
-                        <a href="services.html">Services</a>
-                      </li>
-                      <li class="submenu__item">
-                        <a href="team.html">Our team</a>
-                      </li>
-                      <li class="submenu__item">
-                        <a href="pricing.html">Pricing</a>
-                      </li>
-                      <li class="submenu__item">
-                        <a href="faq.html">FAQ page</a>
-                      </li>
-                      <li class="submenu__item">
-                        <a href="404.html">404 error page</a>
-                      </li>
-                      <li class="submenu__item active">
-                        <a href="index.html">Landing page</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="main-menu__item">
-                    <div class="main-menu__toggle">
-                      <span class="main-menu__link btn btn-anim">
-                        <span class="btn-caption">Insights</span>
-                      </span>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" version="1.1" viewBox="0 0 20 20">
-                        <path
-                          d="M19.6,9.6h-3.9c-.4,0-1.8-.2-1.8-.2-.6,0-1.1-.2-1.6-.6-.5-.3-.9-.8-1.2-1.2-.3-.4-.4-.9-.5-1.4,0,0,0-1.1-.2-1.5V.4c0-.2-.2-.4-.4-.4s-.4.2-.4.4v4.4c0,.4-.2,1.5-.2,1.5,0,.5-.2,1-.5,1.4-.3.5-.7.9-1.2,1.2s-1,.5-1.6.6c0,0-1.2,0-1.7.2H.4c-.2,0-.4.2-.4.4s.2.4.4.4h4.1c.4,0,1.7.2,1.7.2.6,0,1.1.2,1.6.6.4.3.8.7,1.1,1.1.3.5.5,1,.6,1.6,0,0,0,1.3.2,1.7v4.1c0,.2.2.4.4.4s.4-.2.4-.4v-4.1c0-.4.2-1.7.2-1.7,0-.6.2-1.1.6-1.6.3-.4.7-.8,1.1-1.1.5-.3,1-.5,1.6-.6,0,0,1.3,0,1.8-.2h3.9c.2,0,.4-.2.4-.4s-.2-.4-.4-.4h0Z" />
-                      </svg>
-                    </div>
-                    <ul class="submenu">
-                      <li class="submenu__item">
-                        <a href="blog-standard.html">Blog standard</a>
-                      </li>
-                      <li class="submenu__item">
-                        <a href="blog-creative.html">Blog creative</a>
-                      </li>
-                      <li class="submenu__item">
-                        <a href="blog-article.html">Single post</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="main-menu__item">
-                    <a class="main-menu__link btn btn-anim" href="contact.html">
-                      <span class="btn-caption">Contact</span>
-                    </a>
-                  </li>
-                </ul>
-              </nav>
+<!-- ============================ WHY US ============================ -->
+<section class="sec light-2" id="why">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Why Velora</span>
+      <h2 class="d h2">Six reasons<br>guests rebook.</h2>
+    </div>
+
+    <div class="why-grid">
+      <article class="why-card reveal">
+        <span class="why-num">01</span>
+        <span class="why-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 4v6c0 5-3.4 8.6-8 10-4.6-1.4-8-5-8-10V6l8-4z"/><path d="M9 12l2 2 4-4"/></svg></span>
+        <h3>Chauffeurs You Trust</h3>
+        <p>Verified, uniformed professionals with a decade of highway experience and clean records.</p>
+      </article>
+
+      <article class="why-card reveal" style="transition-delay:.06s">
+        <span class="why-num">02</span>
+        <span class="why-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+        <h3>24×7 Availability</h3>
+        <p>Dawn flights, midnight arrivals and last-minute changes — we answer the phone, always.</p>
+      </article>
+
+      <article class="why-card reveal" style="transition-delay:.12s">
+        <span class="why-num">03</span>
+        <span class="why-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1v22M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg></span>
+        <h3>Transparent Pricing</h3>
+        <p>A written quote before pickup. No surge pricing, no hidden tolls, no surprises at drop-off.</p>
+      </article>
+
+      <article class="why-card reveal" style="transition-delay:.18s">
+        <span class="why-num">04</span>
+        <span class="why-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12l2-2 4 4 10-10"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2v-7"/></svg></span>
+        <h3>Sanitised &amp; Serviced</h3>
+        <p>Deep-cleaned after every trip and serviced on schedule at an authorised workshop.</p>
+      </article>
+
+      <article class="why-card reveal" style="transition-delay:.24s">
+        <span class="why-num">05</span>
+        <span class="why-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 3 2.5 15 0 18M12 3c-2.5 3-2.5 15 0 18"/></svg></span>
+        <h3>Pan-India Coverage</h3>
+        <p>City transfers, hill stations, pilgrimages and cross-state tours — one vehicle, one quote.</p>
+      </article>
+
+      <article class="why-card reveal" style="transition-delay:.3s">
+        <span class="why-num">06</span>
+        <span class="why-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 20l-5.4 2 1.4-5.6L15 6.4 19.6 11 9 20z"/><path d="M14 7.4L18.6 12"/></svg></span>
+        <h3>Personalised Itineraries</h3>
+        <p>Tell us the occasion. We plan stops, timings and route so you simply enjoy the ride.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ EXPERIENCES ============================ -->
+<section class="sec dark" id="experiences">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Travel Experiences</span>
+      <h2 class="d h2">One vehicle.<br>Every occasion.</h2>
+      <p class="lead">
+        From a five-minute airport pickup to a ten-day family tour — the Urbania adapts to the
+        shape of your journey.
+      </p>
+    </div>
+
+    <div class="exp-grid">
+      <article class="exp-card reveal-s">
+        <img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=900&q=80" alt="Airport transfer" loading="lazy" onerror="this.style.display='none'">
+        <div class="exp-body">
+          <b>Airport Transfers</b>
+          <p>Flight-tracked pickups with 60 minutes of free waiting time. Meet-and-greet at arrivals.</p>
+          <span class="arrow">Enquire <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+      </article>
+
+      <article class="exp-card reveal-s" style="transition-delay:.06s">
+        <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=900&q=80" alt="Wedding travel" loading="lazy" onerror="this.style.display='none'">
+        <div class="exp-body">
+          <b>Weddings &amp; Events</b>
+          <p>Guest shuttles, baraat logistics and multi-day event transport with décor-friendly timing.</p>
+          <span class="arrow">Enquire <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+      </article>
+
+      <article class="exp-card reveal-s" style="transition-delay:.12s">
+        <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=900&q=80" alt="Corporate travel" loading="lazy" onerror="this.style.display='none'">
+        <div class="exp-body">
+          <b>Corporate Travel</b>
+          <p>Team offsites, client roadshows and conference transfers with GST invoicing and monthly billing.</p>
+          <span class="arrow">Enquire <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+      </article>
+
+      <article class="exp-card reveal-s" style="transition-delay:.18s">
+        <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=900&q=80" alt="Family holiday" loading="lazy" onerror="this.style.display='none'">
+        <div class="exp-body">
+          <b>Family Holidays</b>
+          <p>Reclining seats, ample legroom and a boot that swallows everyone's luggage. Kids love the space.</p>
+          <span class="arrow">Enquire <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+      </article>
+
+      <article class="exp-card reveal-s" style="transition-delay:.24s">
+        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=900&q=80" alt="Sightseeing tour" loading="lazy" onerror="this.style.display='none'">
+        <div class="exp-body">
+          <b>Sightseeing &amp; Tours</b>
+          <p>Hill stations, heritage circuits and pilgrimage routes with a chauffeur who knows the roads.</p>
+          <span class="arrow">Enquire <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+      </article>
+
+      <article class="exp-card reveal-s" style="transition-delay:.3s">
+        <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=900&q=80" alt="Long distance journey" loading="lazy" onerror="this.style.display='none'">
+        <div class="exp-body">
+          <b>Long-Distance Journeys</b>
+          <p>Multi-city runs of 500 km+ with comfortable rest stops planned around your schedule.</p>
+          <span class="arrow">Enquire <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ FLEET ============================ -->
+<section class="sec light" id="fleet">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Our Fleet</span>
+      <h2 class="d h2">Small fleet.<br>Strict standards.</h2>
+      <p class="lead">
+        We deliberately operate one flawless vehicle at a time. As Velora grows, new vehicles
+        are added to this garage — each one held to the same benchmark.
+      </p>
+    </div>
+
+    <div class="fleet-grid">
+      <article class="fleet-card reveal-s">
+        <div class="fleet-media">
+          <img src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1000&q=80" alt="Force Urbania" loading="lazy" onerror="this.style.display='none'">
+          <span class="fleet-chip">Flagship · Available</span>
+        </div>
+        <div class="fleet-body">
+          <h3>Force Urbania</h3>
+          <p>17-seat luxury tourer with 2×1 pushback recliners, dual-zone climate control and a dedicated luggage bay.</p>
+          <div class="fleet-tags">
+            <span>17 Seats</span><span>Dual AC</span><span>Chauffeur</span><span>Pan-India</span>
+          </div>
+          <div class="fleet-foot">
+            <div class="fleet-price"><b>From ₹22/km</b><span>Plus driver allowance</span></div>
+            <a href="#booking" class="btn btn-primary btn-sm">Book</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="fleet-card reveal-s" style="transition-delay:.08s">
+        <div class="fleet-media">
+          <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1000&q=80" alt="Executive sedan" loading="lazy" onerror="this.style.display='none'">
+          <span class="fleet-chip soon">Arriving Soon</span>
+        </div>
+        <div class="fleet-body">
+          <h3>Executive Sedan</h3>
+          <p>For solo travellers and corporate airport runs — arriving to the Velora garage soon.</p>
+          <div class="fleet-tags">
+            <span>4 Seats</span><span>Premium</span><span>Airport</span>
+          </div>
+          <div class="fleet-foot">
+            <div class="fleet-price"><b>Coming 2025</b><span>Join the waitlist</span></div>
+            <a href="#booking" class="btn btn-outline btn-sm">Notify Me</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="fleet-card fleet-soon reveal-s" style="transition-delay:.16s">
+        <span class="plus" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+        </span>
+        <h3>Your Vehicle Here</h3>
+        <p>Velora's architecture is built to onboard new vehicles in days, not months. Own a premium fleet? Partner with us.</p>
+        <a href="#booking" class="btn btn-outline btn-sm" style="margin-top:.4rem">Partner With Us</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ TESTIMONIALS ============================ -->
+<section class="sec light-2" id="reviews">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Guest Stories</span>
+      <h2 class="d h2">4.9 out of 5.<br>Across 480 trips.</h2>
+    </div>
+
+    <div class="tst-viewport reveal-s">
+      <div class="tst-track" id="tstTrack">
+        <article class="tst">
+          <div>
+            <div class="tst-stars" aria-label="5 out of 5">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.5 7 .8-5.2 4.8 1.4 7L12 17.6 5.8 21l1.4-7L2 9.3l7-.8z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.5 7 .8-5.2 4.8 1.4 7L12 17.6 5.8 21l1.4-7L2 9.3l7-.8z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.5 7 .8-5.2 4.8 1.4 7L12 17.6 5.8 21l1.4-7L2 9.3l7-.8z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.5 7 .8-5.2 4.8 1.4 7L12 17.6 5.8 21l1.4-7L2 9.3l7-.8z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.5 7 .8-5.2 4.8 1.4 7L12 17.6 5.8 21l1.4-7L2 9.3l7-.8z"/></svg>
+            </div>
+            <p class="tst-quote">We drove 1,400 km across three states with two toddlers and my parents. The Urbania felt like a lounge on wheels — nobody arrived tired. Booking took one phone call.</p>
+            <div class="tst-author">
+              <span class="tst-av">AR</span>
+              <span><b>Ananya Rao</b><span>Family Holiday · Bengaluru to Coorg</span></span>
             </div>
           </div>
-          <!-- right side -->
-          <div class="mxd-menu__right">
-            <div class="menu-promo">
-              <div class="menu-promo__content">
-                <p class="menu-promo__caption menu-fade-in">👋 New Rayo template is here!<br>Showcase your projects,
-                  services and expertise with impact.</p>
-                <div class="menu-promo__video">
-                  <video class="menu-video" id="inner-video" preload="auto" autoplay="autoplay" loop="loop"
-                    muted="muted" poster="video/540x310_video-01.webp">
-                    <source type="video/mp4" src="video/540x310_video-01.mp4">
-                    <source type="video/webm" src="video/540x310_video-01.webm">
-                    <source type="video/ogv" src="video/540x310_video-01.ogv">
-                  </video>
-                </div>
-              </div>
+          <div class="tst-meta"><span class="tag">Family</span><span class="big">01</span></div>
+        </article>
+
+        <article class="tst">
+          <div>
+            <div class="tst-stars" aria-label="5 out of 5">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.5 7 .8-5.2 4.8 1.4 7L12 17.6 5.8 21l1.4-7L2 9.3l7-.8z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.5 7 .8-5.2 4.8 1.4 7L12 17.6 5.8 21l1.4-7L2 9.3l7-.8z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.5 7 .8-5.2 4.8 1.4 7L12 17.6 5.8 21l1.4-7L2 9.3l7-.8z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.5 7 .8-5.2 4.8 1.4 7L12 17.6 5.8 21l1.4-7L2 9.3l7-.8z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.5 7 .8-5.2 4.8 1.4 7L12 17.6 5.8 21l1.4-7L2 9.3l7-.8z"/></svg>
+            </div>
+            <p class="tst-quote">Our leadership team flew in at 2 AM and the chauffeur was waiting with a name board. Clean vehicle, quiet cabin, invoicing the next morning. Flawless corporate handling.</p>
+            <div class="tst-author">
+              <span class="tst-av">MK</span>
+              <span><b>Manish Kulkarni</b><span>Corporate Offsite · Pune to Nashik</span></span>
             </div>
           </div>
-          <!-- data bottom line -->
-          <div class="mxd-menu__data menu-fade-in">
-            <p class="t-xsmall">
-              Made with
-              <i class="ph-fill ph-heart t-additional"></i>
-              by
-              <a class="no-effect" href="https://1.envato.market/EKA9WD" target="_blank">Mix_Design</a>
-            </p>
-            <p class="t-xsmall">
-              <i class="ph ph-copyright"></i>
-              2025
-            </p>
+          <div class="tst-meta"><span class="tag">Corporate</span><span class="big">02</span></div>
+        </article>
+
+        <article class="tst">
+          <div>
+            <div class="tst-stars" aria-label="5 out of 5">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.5 7 .8-5.2 4.8 1.4 7L12 17.6 5.8 21l1.4-7L2 9.3l7-.8z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.5 7 .8-5.2 4.8 1.4 7L12 17.6 5.8 21l1.4-7L2 9.3l7-.8z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.5 7 .8-5.2 4.8 1.4 7L12 17.6 5.8 21l1.4-7L2 9.3l7-.8z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.5 7 .8-5.2 4.8 1.4 7L12 17.6 5.8 21l1.4-7L2 9.3l7-.8z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.5 7 .8-5.2 4.8 1.4 7L12 17.6 5.8 21l1.4-7L2 9.3l7-.8z"/></svg>
+            </div>
+            <p class="tst-quote">We used it for a three-day wedding with constant guest shuttles. The team handled timing changes without a single complaint. Genuinely premium service.</p>
+            <div class="tst-author">
+              <span class="tst-av">SD</span>
+              <span><b>Sneha Desai</b><span>Wedding Transport · Udaipur</span></span>
+            </div>
           </div>
+          <div class="tst-meta"><span class="tag">Wedding</span><span class="big">03</span></div>
+        </article>
+
+        <article class="tst">
+          <div>
+            <div class="tst-stars" aria-label="5 out of 5">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.5 7 .8-5.2 4.8 1.4 7L12 17.6 5.8 21l1.4-7L2 9.3l7-.8z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.5 7 .8-5.2 4.8 1.4 7L12 17.6 5.8 21l1.4-7L2 9.3l7-.8z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.5 7 .8-5.2 4.8 1.4 7L12 17.6 5.8 21l1.4-7L2 9.3l7-.8z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.5 7 .8-5.2 4.8 1.4 7L12 17.6 5.8 21l1.4-7L2 9.3l7-.8z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.5 7 .8-5.2 4.8 1.4 7L12 17.6 5.8 21l1.4-7L2 9.3l7-.8z"/></svg>
+            </div>
+            <p class="tst-quote">Eight of us on a ten-day Rajasthan tour. Every seat reclined, every phone charged, every stop on schedule. Best road trip we have ever taken together.</p>
+            <div class="tst-author">
+              <span class="tst-av">FR</span>
+              <span><b>Farhan Rizvi</b><span>Group Tour · Jaipur to Jaisalmer</span></span>
+            </div>
+          </div>
+          <div class="tst-meta"><span class="tag">Tour</span><span class="big">04</span></div>
+        </article>
+      </div>
+    </div>
+
+    <div class="tst-controls reveal">
+      <div class="tst-dots" id="tstDots" role="tablist" aria-label="Testimonials">
+        <button class="tst-dot active" data-i="0" aria-label="Testimonial 1"></button>
+        <button class="tst-dot" data-i="1" aria-label="Testimonial 2"></button>
+        <button class="tst-dot" data-i="2" aria-label="Testimonial 3"></button>
+        <button class="tst-dot" data-i="3" aria-label="Testimonial 4"></button>
+      </div>
+      <div class="tst-arrows">
+        <button class="tst-arrow" id="tstPrev" aria-label="Previous testimonial">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+        <button class="tst-arrow" id="tstNext" aria-label="Next testimonial">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ BOOKING ============================ -->
+<section class="sec dark" id="booking">
+  <div class="wrap book-grid">
+    <div class="book-info reveal">
+      <span class="eyebrow">Book the Urbania</span>
+      <h2 class="d h2">Your journey<br>starts here.</h2>
+      <p class="lead">
+        Share a few details and we'll confirm availability, a fixed quote and your chauffeur's
+        details — usually within 30 minutes.
+      </p>
+
+      <ul class="book-points">
+        <li>
+          <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></span>
+          <span><b>Reply within 30 minutes</b><p>Day or night, a real person confirms your booking.</p></span>
+        </li>
+        <li>
+          <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg></span>
+          <span><b>Free rescheduling</b><p>Plans change. Move your date up to 24 hours before pickup.</p></span>
+        </li>
+        <li>
+          <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 4v6c0 5-3.4 8.6-8 10-4.6-1.4-8-5-8-10V6l8-4z"/><path d="M9 12l2 2 4-4"/></svg></span>
+          <span><b>No hidden charges</b><p>Tolls, parking and driver allowance quoted upfront.</p></span>
+        </li>
+      </ul>
+
+      <div class="contact-strip">
+        <a href="tel:+919876543210">
+          <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6A19.8 19.8 0 012.1 4.2 2 2 0 014.1 2h3a2 2 0 012 1.7c.1 1 .4 1.9.7 2.8a2 2 0 01-.5 2.1L8.1 9.9a16 16 0 006 6l1.3-1.2a2 2 0 012.1-.5c.9.3 1.8.6 2.8.7a2 2 0 011.7 2z"/></svg></span>
+          <span><b>Call Us</b><span>+91 98765 43210</span></span>
+        </a>
+        <a href="mailto:hello@veloratravels.com">
+          <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 7l10 6 10-6"/></svg></span>
+          <span><b>Email</b><span>hello@veloratravels.com</span></span>
+        </a>
+      </div>
+    </div>
+
+    <div class="form-card reveal-s" style="transition-delay:.1s">
+      <h3>Request a Booking</h3>
+      <p>Fill the form and we'll open WhatsApp with your details ready to send.</p>
+
+      <form id="bookingForm" novalidate>
+        <div class="form-grid">
+          <div class="field">
+            <label for="bName">Full Name *</label>
+            <input type="text" id="bName" name="name" placeholder="Your name" required>
+            <span class="err">Please enter your name</span>
+          </div>
+          <div class="field">
+            <label for="bPhone">Phone / WhatsApp *</label>
+            <input type="tel" id="bPhone" name="phone" placeholder="+91 00000 00000" required>
+            <span class="err">Please enter a valid phone number</span>
+          </div>
+
+          <div class="field">
+            <label for="bType">Trip Type</label>
+            <select id="bType" name="type">
+              <option>Airport Transfer</option>
+              <option>Family Holiday</option>
+              <option>Corporate Travel</option>
+              <option>Wedding / Event</option>
+              <option>Sightseeing Tour</option>
+              <option>Long-Distance Journey</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="bPax">Passengers</label>
+            <select id="bPax" name="pax">
+              <option>1 – 4</option>
+              <option>5 – 9</option>
+              <option selected>10 – 13</option>
+              <option>14 – 17</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="bFrom">Pickup City / Location *</label>
+            <input type="text" id="bFrom" name="from" placeholder="e.g. Bengaluru Airport" required>
+            <span class="err">Please enter a pickup location</span>
+          </div>
+          <div class="field">
+            <label for="bTo">Destination</label>
+            <input type="text" id="bTo" name="to" placeholder="e.g. Coorg">
+          </div>
+
+          <div class="field">
+            <label for="bDate">Travel Date *</label>
+            <input type="date" id="bDate" name="date" required>
+            <span class="err">Please choose a date</span>
+          </div>
+          <div class="field">
+            <label for="bTime">Pickup Time</label>
+            <input type="time" id="bTime" name="time">
+          </div>
+
+          <div class="field full">
+            <label for="bMsg">Anything Else?</label>
+            <textarea id="bMsg" name="msg" rows="3" placeholder="Child seat, extra stops, luggage details…"></textarea>
+          </div>
+        </div>
+
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary" style="flex:1">
+            Send Request on WhatsApp
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </button>
+          <a href="tel:+919876543210" class="btn btn-ghost">Call Now</a>
+        </div>
+
+        <div class="form-success" id="formSuccess">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+          <span>Opening WhatsApp with your request…</span>
+        </div>
+
+        <p class="form-note">By submitting you agree to be contacted regarding this enquiry. We never share your details.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============================ FOOTER ============================ -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-about">
+        <a href="#home" class="logo">
+          <span class="logo-mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17h18M5 17V9l2-3h10l2 3v8"/><circle cx="7.5" cy="17.5" r="1.6" fill="#fff" stroke="none"/><circle cx="16.5" cy="17.5" r="1.6" fill="#fff" stroke="none"/></svg>
+          </span>
+          <span class="logo-txt"><b>Velora</b><span>Travels</span></span>
+        </a>
+        <p>Premium chauffeur-driven vehicle rental and travel services. Currently operating the Force Urbania — with more premium vehicles joining the garage soon.</p>
+        <div class="socials">
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.1" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 9h3V6h-3c-2.2 0-4 1.8-4 4v2H8v3h2v7h3v-7h2.5l.5-3H13v-2c0-.6.4-1 1-1z"/></svg></a>
+          <a href="#" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 00-8.6 15.1L2 22l5.1-1.3A10 10 0 1012 2zm5.6 14.2c-.2.7-1.4 1.3-2 1.4-.5.1-1.1.1-1.8-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5-4.5-.2-.2-1.2-1.6-1.2-3s.8-2.1 1-2.4c.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .6l-.4.6c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.1 1 2 1.3 2.3 1.4.3.1.4.1.6-.1l.8-1c.2-.2.3-.2.6-.1l2 1c.3.1.5.2.5.3.1.2.1.7-.1 1.3z"/></svg></a>
+          <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12s0-3.2-.4-4.7a2.5 2.5 0 00-1.7-1.7C18.3 5.2 12 5.2 12 5.2s-6.3 0-7.9.4a2.5 2.5 0 00-1.7 1.7C2 8.8 2 12 2 12s0 3.2.4 4.7a2.5 2.5 0 001.7 1.7c1.6.4 7.9.4 7.9.4s6.3 0 7.9-.4a2.5 2.5 0 001.7-1.7c.4-1.5.4-4.7.4-4.7zM10 15.5v-7l6 3.5-6 3.5z"/></svg></a>
+        </div>
+      </div>
+
+      <div>
+        <h4>Fleet</h4>
+        <div class="footer-links">
+          <a href="#fleet">Force Urbania</a>
+          <a href="#specs">Specifications</a>
+          <a href="#showcase">Vehicle Showcase</a>
+          <a href="#booking">Check Availability</a>
+        </div>
+      </div>
+
+      <div>
+        <h4>Services</h4>
+        <div class="footer-links">
+          <a href="#experiences">Airport Transfers</a>
+          <a href="#experiences">Corporate Travel</a>
+          <a href="#experiences">Weddings &amp; Events</a>
+          <a href="#experiences">Sightseeing Tours</a>
+          <a href="#experiences">Long-Distance Trips</a>
+        </div>
+      </div>
+
+      <div>
+        <h4>Get in Touch</h4>
+        <div class="footer-links">
+          <a href="tel:+919876543210">+91 98765 43210</a>
+          <a href="mailto:hello@veloratravels.com">hello@veloratravels.com</a>
+          <a href="#booking">Velora Travels, Bengaluru, India</a>
+          <a href="#booking">Mon – Sun · 24 Hours</a>
         </div>
       </div>
     </div>
-    <!-- Main Navigation End -->
 
-  </nav>
-  <!-- Menu & Menu Hamburger End -->
-
-  <!-- Header Start -->
-  <header id="header" class="mxd-header">
-    <!-- header logo -->
-    <div class="mxd-header__logo loading__fade">
-      <img class="header-logo" src="/img/logo/metro.png" />
+    <div class="footer-bottom">
+      <span>© <span id="year">2025</span> Velora Travels. All rights reserved.</span>
+      <span class="legal">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Cancellation Policy</a>
+      </span>
     </div>
-    <!-- header controls -->
-    <div class="mxd-header__controls loading__fade">
-      <button id="color-switcher" class="mxd-color-switcher" type="button" role="switch" aria-label="light/dark mode"
-        aria-checked="true"></button>
-      <a class="btn btn-anim btn-default btn-mobile-icon btn-outline slide-right" href="https://wa.me/917025760695"
-        target="_blank" aria-label="Purchase">
-        <span class="btn-caption">Contact</span>
-        <i class="ph-bold ph-whatsapp-logo"></i>
-      </a>
-    </div>
-  </header>
-  <!-- Header End -->
-
-  <main id="mxd-page-content" class="mxd-page-content">
-
-    <div class="mxd-section">
-      <div class="mxd-hero-06">
-        <div class="mxd-hero-06__wrap loading-wrap">
-          <div class="mxd-hero-06__top">
-            <div class="mxd-hero-06__content">
-              <div class="mxd-hero-06__video">
-                <img src="img/hero/hero.png">
-                <div class="hero-06-video__cover"></div>
-              </div>
-
-              <!-- <div class="mxd-hero-06__data">
-                <div class="mxd-hero-06__list">
-                  <div class="mxd-paragraph__lists">
-                    <div class="container-fluid p-0">
-                      <div class="row g-0">
-                        <div class="col-6 col-lg-4 col-xl-2 loading__item">
-                          <ul>
-                            <li>
-                              <p class="t-small">Innovations</p>
-                            </li>
-                            <li>
-                              <p class="t-small">Creativity</p>
-                            </li>
-                            <li>
-                              <p class="t-small">Experience</p>
-                            </li>
-                            <li>
-                              <p class="t-small">Competence</p>
-                            </li>
-                            <li>
-                              <p class="t-small">Passion</p>
-                            </li>
-                          </ul>
-                        </div>
-                        <div class="col-6 col-lg-4 col-xl-2 loading__item">
-                          <ul>
-                            <li>
-                              <p class="t-small">IU/UX</p>
-                            </li>
-                            <li>
-                              <p class="t-small">App design</p>
-                            </li>
-                            <li>
-                              <p class="t-small">Development</p>
-                            </li>
-                            <li>
-                              <p class="t-small">Branding</p>
-                            </li>
-                            <li>
-                              <p class="t-small">Motion</p>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="mxd-hero-06__headline">
-                  <div class="hero-06-headline__descr">
-                    <p class="loading__item">👽 Hey! I’m Alex Walker, digital designer and illustrator based in Odesa,
-                      Ukraine</p>
-                    <div class="hero-06-headline__btn loading__item">
-                      <a href="#0" class="btn-rotating btn-rotating-blur-outline ver-04 permanent-desktop">
-                  
-                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                          x="0px" y="0px" viewBox="0 0 160 160" style="enable-background:new 0 0 160 160;"
-                          xml:space="preserve" class="btn-rotating__text animate-rotation" data-value="360">
-                          <defs>
-                            <path id="textPath"
-                              d="M149.7,80c0,38.5-31.2,69.7-69.7,69.7S10.3,118.5,10.3,80S41.5,10.3,80,10.3S149.7,41.5,149.7,80z" />
-                          </defs>
-                          <g>
-                            <use xlink:href="#textPath" fill="none"></use>
-                            <text>
-                   
-                              <textPath xlink:href="#textPath">Download CV * Download CV * Download CV * </textPath>
-                            </text>
-                          </g>
-                        </svg>
-                 
-                        <img class="btn-rotating__image" src="img/icons/300x300_obj-btn-03.webp" alt="Object">
-                      </a>
-                    </div>
-                  </div>
-                  <div class="hero-06-headline__content">
-                    <h1 class="hero-06-headline__title">Digital designer, creative developer, illustrator</h1>
-                    <div class="mxd-hero-06__marquee loading__item">
-                      <div class="marquee marquee-right--gsap permanent-desktop">
-                        <div class="marquee__toright"
-                          style="translate: none; rotate: none; scale: none; transform: translate3d(11.3417%, 0px, 0px);">
-              
-                          <div class="marquee__item one-line item-regular text">
-                            <p class="marquee__text">Digital designer</p>
-                            <div class="marquee__image">
-                              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80"
-                                fill="currentColor">
-                                <path fill="currentColor" d="M78.4,38.4c0,0-11.8,0-15.8,0c-1.6,0-4.8-0.2-7.1-0.8c-2.3-0.6-4.3-0.8-6.3-2.4c-2-1.2-3.5-3.2-4.7-4.8
-                                    c-1.2-1.6-1.6-3.6-2-5.5c-0.3-1.5-0.7-4.3-0.8-5.9c-0.2-4.3,0-17.4,0-17.4C41.8,0.8,41,0,40.2,0s-1.6,0.8-1.6,1.6c0,0,0,13.1,0,17.4
-                                    c0,1.6-0.6,4.3-0.8,5.9c-0.3,2-0.8,4-2,5.5c-1.2,2-2.8,3.6-4.7,4.8s-4,1.8-6.3,2.4c-1.9,0.5-4.7,0.6-6.7,0.8c-3.9,0.4-16.6,0-16.6,0
-                                    C0.8,38.4,0,39.2,0,40c0,0.8,0.8,1.6,1.6,1.6c0,0,12.2,0,16.6,0c1.6,0,4.8,0.3,6.7,0.8c2.3,0.6,4.3,0.8,6.3,2.4
-                                    c1.6,1.2,3.2,2.8,4.3,4.4c1.2,2,2.1,3.9,2.4,6.3c0.2,1.7,0.7,4.7,0.8,6.7c0.2,4,0,16.2,0,16.2c0,0.8,0.8,1.6,1.6,1.6
-                                    s1.6-0.8,1.6-1.6c0,0,0-12.3,0-16.2c0-1.6,0.5-5.1,0.8-6.7c0.5-2.3,0.8-4.4,2.4-6.3c1.2-1.6,2.8-3.2,4.3-4.4c2-1.2,3.9-2,6.3-2.4
-                                    c1.8-0.3,5.1-0.7,7.1-0.8c3.5-0.2,15.8,0,15.8,0c0.8,0,1.6-0.8,1.6-1.6C80,39.2,79.2,38.4,78.4,38.4C78.4,38.4,78.4,38.4,78.4,38.4z
-                                    "></path>
-                              </svg>
-                            </div>
-                          </div>
-                      
-                          <div class="marquee__item one-line item-regular text">
-                            <p class="marquee__text">Creative developer</p>
-                            <div class="marquee__image">
-                              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80"
-                                fill="currentColor">
-                                <path fill="currentColor" d="M78.4,38.4c0,0-11.8,0-15.8,0c-1.6,0-4.8-0.2-7.1-0.8c-2.3-0.6-4.3-0.8-6.3-2.4c-2-1.2-3.5-3.2-4.7-4.8
-                                    c-1.2-1.6-1.6-3.6-2-5.5c-0.3-1.5-0.7-4.3-0.8-5.9c-0.2-4.3,0-17.4,0-17.4C41.8,0.8,41,0,40.2,0s-1.6,0.8-1.6,1.6c0,0,0,13.1,0,17.4
-                                    c0,1.6-0.6,4.3-0.8,5.9c-0.3,2-0.8,4-2,5.5c-1.2,2-2.8,3.6-4.7,4.8s-4,1.8-6.3,2.4c-1.9,0.5-4.7,0.6-6.7,0.8c-3.9,0.4-16.6,0-16.6,0
-                                    C0.8,38.4,0,39.2,0,40c0,0.8,0.8,1.6,1.6,1.6c0,0,12.2,0,16.6,0c1.6,0,4.8,0.3,6.7,0.8c2.3,0.6,4.3,0.8,6.3,2.4
-                                    c1.6,1.2,3.2,2.8,4.3,4.4c1.2,2,2.1,3.9,2.4,6.3c0.2,1.7,0.7,4.7,0.8,6.7c0.2,4,0,16.2,0,16.2c0,0.8,0.8,1.6,1.6,1.6
-                                    s1.6-0.8,1.6-1.6c0,0,0-12.3,0-16.2c0-1.6,0.5-5.1,0.8-6.7c0.5-2.3,0.8-4.4,2.4-6.3c1.2-1.6,2.8-3.2,4.3-4.4c2-1.2,3.9-2,6.3-2.4
-                                    c1.8-0.3,5.1-0.7,7.1-0.8c3.5-0.2,15.8,0,15.8,0c0.8,0,1.6-0.8,1.6-1.6C80,39.2,79.2,38.4,78.4,38.4C78.4,38.4,78.4,38.4,78.4,38.4z
-                                    "></path>
-                              </svg>
-                            </div>
-                          </div>
-                    
-                          <div class="marquee__item one-line item-regular text">
-                            <p class="marquee__text">Illustrator</p>
-                            <div class="marquee__image">
-                              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80"
-                                fill="currentColor">
-                                <path fill="currentColor" d="M78.4,38.4c0,0-11.8,0-15.8,0c-1.6,0-4.8-0.2-7.1-0.8c-2.3-0.6-4.3-0.8-6.3-2.4c-2-1.2-3.5-3.2-4.7-4.8
-                                    c-1.2-1.6-1.6-3.6-2-5.5c-0.3-1.5-0.7-4.3-0.8-5.9c-0.2-4.3,0-17.4,0-17.4C41.8,0.8,41,0,40.2,0s-1.6,0.8-1.6,1.6c0,0,0,13.1,0,17.4
-                                    c0,1.6-0.6,4.3-0.8,5.9c-0.3,2-0.8,4-2,5.5c-1.2,2-2.8,3.6-4.7,4.8s-4,1.8-6.3,2.4c-1.9,0.5-4.7,0.6-6.7,0.8c-3.9,0.4-16.6,0-16.6,0
-                                    C0.8,38.4,0,39.2,0,40c0,0.8,0.8,1.6,1.6,1.6c0,0,12.2,0,16.6,0c1.6,0,4.8,0.3,6.7,0.8c2.3,0.6,4.3,0.8,6.3,2.4
-                                    c1.6,1.2,3.2,2.8,4.3,4.4c1.2,2,2.1,3.9,2.4,6.3c0.2,1.7,0.7,4.7,0.8,6.7c0.2,4,0,16.2,0,16.2c0,0.8,0.8,1.6,1.6,1.6
-                                    s1.6-0.8,1.6-1.6c0,0,0-12.3,0-16.2c0-1.6,0.5-5.1,0.8-6.7c0.5-2.3,0.8-4.4,2.4-6.3c1.2-1.6,2.8-3.2,4.3-4.4c2-1.2,3.9-2,6.3-2.4
-                                    c1.8-0.3,5.1-0.7,7.1-0.8c3.5-0.2,15.8,0,15.8,0c0.8,0,1.6-0.8,1.6-1.6C80,39.2,79.2,38.4,78.4,38.4C78.4,38.4,78.4,38.4,78.4,38.4z
-                                    "></path>
-                              </svg>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div> -->
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-    <!-- Hero Section End -->
-
-
-
-
-
-    <!-- <div id="projects" class="mxd-section padding-pre-stack">
-      <div class="mxd-container grid-container">
-
-
-        <div class="mxd-block">
-          <div class="mxd-pinned-projects">
-            <div class="container-fluid px-0">
-              <div class="row gx-0">
-                <div class="col-12 col-xl-5 mxd-pinned-projects__static">
-                  <div class="mxd-pinned-projects__static-inner no-margin">
-
-         
-                    <div class="mxd-section-title no-margin-desktop">
-                      <div class="container-fluid p-0">
-                        <div class="row g-0">
-                          <div class="col-12 mxd-grid-item no-margin">
-                            <div class="mxd-section-title__title anim-uni-in-up">
-                              <h2 class="reveal-type">Featured<br>projects</h2>
-                            </div>
-                          </div>
-                          <div class="col-12 mxd-grid-item no-margin">
-                            <div class="mxd-section-title__descr anim-uni-in-up">
-                              <p>Explore a selection of projects blending<br>creativity with practical design</p>
-                            </div>
-                          </div>
-                          <div class="col-12 mxd-grid-item no-margin">
-                            <div class="mxd-section-title__controls anim-uni-in-up">
-                              <a class="btn btn-anim btn-default btn-outline slide-right-up" href="works-simple.html">
-                                <span class="btn-caption">All Works</span>
-                                <i class="ph-bold ph-arrow-up-right"></i>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-         
-
-                  </div>
-                </div>
-                <div class="col-12 col-xl-7 mxd-pinned-projects__scroll">
-                  <div class="mxd-pinned-projects__scroll-inner mxd-grid-item no-margin">
-       
-                    <div class="mxd-project-item">
-                      <a class="mxd-project-item__media anim-uni-in-up" href="project-details.html">
-                        <div class="mxd-project-item__preview preview-image-1 parallax-img-small"></div>
-                        <div class="mxd-project-item__tags">
-                          <span class="tag tag-default tag-permanent">UI/UX</span>
-                          <span class="tag tag-default tag-permanent">Web design</span>
-                          <span class="tag tag-default tag-permanent">Illustrations</span>
-                        </div>
-                      </a>
-                      <div class="mxd-project-item__promo">
-                        <div class="mxd-project-item__name">
-                          <a class="anim-uni-in-up" href="project-details.html"><span>Creative studio</span> template
-                            for modern agencies</a>
-                        </div>
-                      </div>
-                    </div>
-               
-                    <div class="mxd-project-item">
-                      <a class="mxd-project-item__media anim-uni-in-up" href="project-details.html">
-                        <div class="mxd-project-item__preview preview-image-2 parallax-img-small"></div>
-                        <div class="mxd-project-item__tags">
-                          <span class="tag tag-default tag-permanent">Sora</span>
-                          <span class="tag tag-default tag-permanent">AI</span>
-                          <span class="tag tag-default tag-permanent">Editorial</span>
-                        </div>
-                      </a>
-                      <div class="mxd-project-item__promo">
-                        <div class="mxd-project-item__name">
-                          <a class="anim-uni-in-up" href="project-details.html"><span>Interactive concept</span> powered
-                            by AI</a>
-                        </div>
-                      </div>
-                    </div>
-              
-                    <div class="mxd-project-item">
-                      <a class="mxd-project-item__media" href="project-details.html">
-                        <div class="mxd-project-item__preview preview-image-3 parallax-img-small"></div>
-                        <div class="mxd-project-item__tags">
-                          <span class="tag tag-default tag-permanent">UI/UX</span>
-                          <span class="tag tag-default tag-permanent">Design</span>
-                          <span class="tag tag-default tag-permanent">Android</span>
-                        </div>
-                      </a>
-                      <div class="mxd-project-item__promo">
-                        <div class="mxd-project-item__name">
-                          <a href="project-details.html"><span>Mobile app design</span> for a cross-platform
-                            solution</a>
-                        </div>
-                      </div>
-                    </div>
-                  
-                    <div class="mxd-project-item">
-                      <a class="mxd-project-item__media anim-uni-in-up" href="project-details.html">
-                        <div class="mxd-project-item__preview preview-image-4 parallax-img-small"></div>
-                        <div class="mxd-project-item__tags">
-                          <span class="tag tag-default tag-permanent">Brand identity</span>
-                          <span class="tag tag-default tag-permanent">Style guides</span>
-                        </div>
-                      </a>
-                      <div class="mxd-project-item__promo">
-                        <div class="mxd-project-item__name">
-                          <a class="anim-uni-in-up" href="project-details.html"><span>NFT project</span> branding</a>
-                        </div>
-                      </div>
-                    </div>
-            
-                    <div class="mxd-project-item">
-                      <a class="mxd-project-item__media anim-uni-in-up" href="project-details.html">
-                        <div class="mxd-project-item__preview preview-image-5 parallax-img-small"></div>
-                        <div class="mxd-project-item__tags">
-                          <span class="tag tag-default tag-permanent">Illustrations</span>
-                          <span class="tag tag-default tag-permanent">Design</span>
-                          <span class="tag tag-default tag-permanent">Packaging</span>
-                        </div>
-                      </a>
-                      <div class="mxd-project-item__promo">
-                        <div class="mxd-project-item__name">
-                          <a class="anim-uni-in-up" href="project-details.html"><span>Illustrations set</span> developed
-                            for digital and print use.</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-    
-
-      </div>
-    </div> -->
-
-
-
-    <!-- <div class="mxd-section padding-stacked-section">
-      <div class="mxd-container grid-container">
-
-
-        <div class="mxd-block mxd-grid-item no-margin">
-          <div class="content__block">
-            <div class="stack-wrapper in-content-stack">
-              <div class="stack-offset"></div>
-              <div class="services-stack">
-
-                <div class="stack-item">
-                  <div class="mxd-services-stack__inner justify-between bg-base-opp">
-                    <div class="mxd-services-stack__controls">
-                      <a class="btn btn-round btn-round-large btn-additional slide-right-up anim-no-delay"
-                        href="services.html" aria-label="Services Page Link">
-                        <i class="ph ph-arrow-up-right"></i>
-                      </a>
-                    </div>
-                    <div class="mxd-services-stack__title width-60">
-                      <h3 class="opposite">Digital art and graphic design</h3>
-                    </div>
-                    <div class="mxd-services-stack__info width-60">
-                      <div class="mxd-services-cards__tags">
-                        <span class="tag tag-default tag-outline-opposite">UI/UX</span>
-                        <span class="tag tag-default tag-outline-opposite">Web design</span>
-                        <span class="tag tag-default tag-outline-opposite">Packaging</span>
-                        <span class="tag tag-default tag-outline-opposite">Motion</span>
-                        <span class="tag tag-default tag-outline-opposite">3D models</span>
-                      </div>
-                      <p class="t-small-mobile t-opposite">We create visually compelling designs that enhance user
-                        experience.
-                        We make sure your brand's visuals resonate with your audience.</p>
-                    </div>
-                    <div class="services-stack__image">
-                      <img class="service-img service-img-s" src="img/services/800x800_ser-01.webp"
-                        alt="Service/Feature Image">
-                      <img class="service-img service-img-m" src="img/services/1000x1000_ser-01.webp"
-                        alt="Service/Feature Image">
-                    </div>
-                  </div>
-                </div>
-
-                <div class="stack-item">
-                  <div class="mxd-services-stack__inner justify-between bg-accent">
-                    <div class="mxd-services-stack__controls">
-                      <a class="btn btn-round btn-round-large btn-base slide-right-up anim-no-delay"
-                        href="services.html" aria-label="Services Page Link">
-                        <i class="ph ph-arrow-up-right"></i>
-                      </a>
-                    </div>
-                    <div class="mxd-services-stack__title width-60">
-                      <h3 class="opposite">Creative<br>development</h3>
-                    </div>
-                    <div class="mxd-services-stack__info width-60">
-                      <div class="mxd-services-cards__tags">
-                        <span class="tag tag-default tag-outline-opposite">Frontend</span>
-                        <span class="tag tag-default tag-outline-opposite">Interactions</span>
-                        <span class="tag tag-default tag-outline-opposite">Backend</span>
-                        <span class="tag tag-default tag-outline-opposite">Mobile Apps</span>
-                      </div>
-                      <p class="t-small-mobile t-opposite">We build high-performance websites and applications using
-                        modern technologies. Our solutions are designed to be scalable and functional for optimal
-                        performance.</p>
-                    </div>
-                    <div class="services-stack__image">
-                      <img class="service-img service-img-s" src="img/services/800x800_ser-02.webp"
-                        alt="Service/Feature Image">
-                      <img class="service-img service-img-m" src="img/services/1000x1000_ser-02.webp"
-                        alt="Service/Feature Image">
-                    </div>
-                  </div>
-                </div>
-
-                <div class="stack-item">
-                  <div class="mxd-services-stack__inner radius-dark justify-between bg-base-tint">
-                    <div class="mxd-services-stack__controls">
-                      <a class="btn btn-round btn-round-large btn-opposite slide-right-up anim-no-delay"
-                        href="services.html" aria-label="Services Page Link">
-                        <i class="ph ph-arrow-up-right"></i>
-                      </a>
-                    </div>
-                    <div class="mxd-services-stack__title width-60">
-                      <h3>Brand<br>identity</h3>
-                    </div>
-                    <div class="mxd-services-stack__info width-60">
-                      <div class="mxd-services-cards__tags">
-                        <span class="tag tag-default tag-outline">Brand strategy</span>
-                        <span class="tag tag-default tag-outline">Logo design</span>
-                        <span class="tag tag-default tag-outline">Guidelines</span>
-                        <span class="tag tag-default tag-outline">Rebranding</span>
-                      </div>
-                      <p class="t-small-mobile">From logo design to comprehensive brand strategies, we ensure your
-                        business stands
-                        out with a unique visual identity and consistent messaging across all touchpoints.</p>
-                    </div>
-                    <div class="services-stack__image">
-                      <img class="service-img service-img-s" src="img/services/800x800_ser-03.webp"
-                        alt="Service/Feature Image">
-                      <img class="service-img service-img-m" src="img/services/1000x1000_ser-03.webp"
-                        alt="Service/Feature Image">
-                    </div>
-                  </div>
-                </div>
-  
-                <div class="stack-item">
-                  <div class="mxd-services-stack__inner justify-between bg-base-opp">
-                    <div class="mxd-services-stack__controls">
-                      <a class="btn btn-round btn-round-large btn-additional slide-right-up anim-no-delay"
-                        href="services.html" aria-label="Services Page Link">
-                        <i class="ph ph-arrow-up-right"></i>
-                      </a>
-                    </div>
-                    <div class="mxd-services-stack__title width-60">
-                      <h3 class="opposite">Digital marketing<br>solutions</h3>
-                    </div>
-                    <div class="mxd-services-stack__info width-60">
-                      <div class="mxd-services-cards__tags">
-                        <span class="tag tag-default tag-outline-opposite">Strategy</span>
-                        <span class="tag tag-default tag-outline-opposite">Social media</span>
-                        <span class="tag tag-default tag-outline-opposite">SEO</span>
-                        <span class="tag tag-default tag-outline-opposite">Optimization</span>
-                        <span class="tag tag-default tag-outline-opposite">Campaigns</span>
-                      </div>
-                      <p class="t-small-mobile t-opposite">SEO and content marketing, social media management and paid
-                        campaigns - we help you reach and engage your target audience effectively.</p>
-                    </div>
-                    <div class="services-stack__image">
-                      <img class="service-img service-img-s" src="img/services/800x800_ser-04.webp"
-                        alt="Service/Feature Image">
-                      <img class="service-img service-img-m" src="img/services/1000x1000_ser-04.webp"
-                        alt="Service/Feature Image">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-      </div>
-    </div> -->
-
-
-
-
-    <!-- <div class="mxd-section padding-mtext-pre-grid">
-      <div class="mxd-container fullwidth-container">
-
-
-        <div class="mxd-block">
-          <div class="marquee marquee-right--gsap muted-extra">
-            <div class="marquee__toright">
- 
-              <div class="marquee__item one-line item-regular text">
-                <p class="marquee__text">Design</p>
-                <div class="marquee__image">
-                  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="currentColor">
-                    <path fill="currentColor" d="M78.4,38.4c0,0-11.8,0-15.8,0c-1.6,0-4.8-0.2-7.1-0.8c-2.3-0.6-4.3-0.8-6.3-2.4c-2-1.2-3.5-3.2-4.7-4.8
-                        c-1.2-1.6-1.6-3.6-2-5.5c-0.3-1.5-0.7-4.3-0.8-5.9c-0.2-4.3,0-17.4,0-17.4C41.8,0.8,41,0,40.2,0s-1.6,0.8-1.6,1.6c0,0,0,13.1,0,17.4
-                        c0,1.6-0.6,4.3-0.8,5.9c-0.3,2-0.8,4-2,5.5c-1.2,2-2.8,3.6-4.7,4.8s-4,1.8-6.3,2.4c-1.9,0.5-4.7,0.6-6.7,0.8c-3.9,0.4-16.6,0-16.6,0
-                        C0.8,38.4,0,39.2,0,40c0,0.8,0.8,1.6,1.6,1.6c0,0,12.2,0,16.6,0c1.6,0,4.8,0.3,6.7,0.8c2.3,0.6,4.3,0.8,6.3,2.4
-                        c1.6,1.2,3.2,2.8,4.3,4.4c1.2,2,2.1,3.9,2.4,6.3c0.2,1.7,0.7,4.7,0.8,6.7c0.2,4,0,16.2,0,16.2c0,0.8,0.8,1.6,1.6,1.6
-                        s1.6-0.8,1.6-1.6c0,0,0-12.3,0-16.2c0-1.6,0.5-5.1,0.8-6.7c0.5-2.3,0.8-4.4,2.4-6.3c1.2-1.6,2.8-3.2,4.3-4.4c2-1.2,3.9-2,6.3-2.4
-                        c1.8-0.3,5.1-0.7,7.1-0.8c3.5-0.2,15.8,0,15.8,0c0.8,0,1.6-0.8,1.6-1.6C80,39.2,79.2,38.4,78.4,38.4C78.4,38.4,78.4,38.4,78.4,38.4z
-                        " />
-                  </svg>
-                </div>
-              </div>
-       
-              <div class="marquee__item one-line item-regular text">
-                <p class="marquee__text">Development</p>
-                <div class="marquee__image">
-                  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="currentColor">
-                    <path fill="currentColor" d="M78.4,38.4c0,0-11.8,0-15.8,0c-1.6,0-4.8-0.2-7.1-0.8c-2.3-0.6-4.3-0.8-6.3-2.4c-2-1.2-3.5-3.2-4.7-4.8
-                        c-1.2-1.6-1.6-3.6-2-5.5c-0.3-1.5-0.7-4.3-0.8-5.9c-0.2-4.3,0-17.4,0-17.4C41.8,0.8,41,0,40.2,0s-1.6,0.8-1.6,1.6c0,0,0,13.1,0,17.4
-                        c0,1.6-0.6,4.3-0.8,5.9c-0.3,2-0.8,4-2,5.5c-1.2,2-2.8,3.6-4.7,4.8s-4,1.8-6.3,2.4c-1.9,0.5-4.7,0.6-6.7,0.8c-3.9,0.4-16.6,0-16.6,0
-                        C0.8,38.4,0,39.2,0,40c0,0.8,0.8,1.6,1.6,1.6c0,0,12.2,0,16.6,0c1.6,0,4.8,0.3,6.7,0.8c2.3,0.6,4.3,0.8,6.3,2.4
-                        c1.6,1.2,3.2,2.8,4.3,4.4c1.2,2,2.1,3.9,2.4,6.3c0.2,1.7,0.7,4.7,0.8,6.7c0.2,4,0,16.2,0,16.2c0,0.8,0.8,1.6,1.6,1.6
-                        s1.6-0.8,1.6-1.6c0,0,0-12.3,0-16.2c0-1.6,0.5-5.1,0.8-6.7c0.5-2.3,0.8-4.4,2.4-6.3c1.2-1.6,2.8-3.2,4.3-4.4c2-1.2,3.9-2,6.3-2.4
-                        c1.8-0.3,5.1-0.7,7.1-0.8c3.5-0.2,15.8,0,15.8,0c0.8,0,1.6-0.8,1.6-1.6C80,39.2,79.2,38.4,78.4,38.4C78.4,38.4,78.4,38.4,78.4,38.4z
-                        " />
-                  </svg>
-                </div>
-              </div>
-      
-              <div class="marquee__item one-line item-regular text">
-                <p class="marquee__text">Branding</p>
-                <div class="marquee__image">
-                  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="currentColor">
-                    <path fill="currentColor" d="M78.4,38.4c0,0-11.8,0-15.8,0c-1.6,0-4.8-0.2-7.1-0.8c-2.3-0.6-4.3-0.8-6.3-2.4c-2-1.2-3.5-3.2-4.7-4.8
-                        c-1.2-1.6-1.6-3.6-2-5.5c-0.3-1.5-0.7-4.3-0.8-5.9c-0.2-4.3,0-17.4,0-17.4C41.8,0.8,41,0,40.2,0s-1.6,0.8-1.6,1.6c0,0,0,13.1,0,17.4
-                        c0,1.6-0.6,4.3-0.8,5.9c-0.3,2-0.8,4-2,5.5c-1.2,2-2.8,3.6-4.7,4.8s-4,1.8-6.3,2.4c-1.9,0.5-4.7,0.6-6.7,0.8c-3.9,0.4-16.6,0-16.6,0
-                        C0.8,38.4,0,39.2,0,40c0,0.8,0.8,1.6,1.6,1.6c0,0,12.2,0,16.6,0c1.6,0,4.8,0.3,6.7,0.8c2.3,0.6,4.3,0.8,6.3,2.4
-                        c1.6,1.2,3.2,2.8,4.3,4.4c1.2,2,2.1,3.9,2.4,6.3c0.2,1.7,0.7,4.7,0.8,6.7c0.2,4,0,16.2,0,16.2c0,0.8,0.8,1.6,1.6,1.6
-                        s1.6-0.8,1.6-1.6c0,0,0-12.3,0-16.2c0-1.6,0.5-5.1,0.8-6.7c0.5-2.3,0.8-4.4,2.4-6.3c1.2-1.6,2.8-3.2,4.3-4.4c2-1.2,3.9-2,6.3-2.4
-                        c1.8-0.3,5.1-0.7,7.1-0.8c3.5-0.2,15.8,0,15.8,0c0.8,0,1.6-0.8,1.6-1.6C80,39.2,79.2,38.4,78.4,38.4C78.4,38.4,78.4,38.4,78.4,38.4z
-                        " />
-                  </svg>
-                </div>
-              </div>
-  
-              <div class="marquee__item one-line item-regular text">
-                <p class="marquee__text">eCommerce</p>
-                <div class="marquee__image">
-                  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="currentColor">
-                    <path fill="currentColor" d="M78.4,38.4c0,0-11.8,0-15.8,0c-1.6,0-4.8-0.2-7.1-0.8c-2.3-0.6-4.3-0.8-6.3-2.4c-2-1.2-3.5-3.2-4.7-4.8
-                        c-1.2-1.6-1.6-3.6-2-5.5c-0.3-1.5-0.7-4.3-0.8-5.9c-0.2-4.3,0-17.4,0-17.4C41.8,0.8,41,0,40.2,0s-1.6,0.8-1.6,1.6c0,0,0,13.1,0,17.4
-                        c0,1.6-0.6,4.3-0.8,5.9c-0.3,2-0.8,4-2,5.5c-1.2,2-2.8,3.6-4.7,4.8s-4,1.8-6.3,2.4c-1.9,0.5-4.7,0.6-6.7,0.8c-3.9,0.4-16.6,0-16.6,0
-                        C0.8,38.4,0,39.2,0,40c0,0.8,0.8,1.6,1.6,1.6c0,0,12.2,0,16.6,0c1.6,0,4.8,0.3,6.7,0.8c2.3,0.6,4.3,0.8,6.3,2.4
-                        c1.6,1.2,3.2,2.8,4.3,4.4c1.2,2,2.1,3.9,2.4,6.3c0.2,1.7,0.7,4.7,0.8,6.7c0.2,4,0,16.2,0,16.2c0,0.8,0.8,1.6,1.6,1.6
-                        s1.6-0.8,1.6-1.6c0,0,0-12.3,0-16.2c0-1.6,0.5-5.1,0.8-6.7c0.5-2.3,0.8-4.4,2.4-6.3c1.2-1.6,2.8-3.2,4.3-4.4c2-1.2,3.9-2,6.3-2.4
-                        c1.8-0.3,5.1-0.7,7.1-0.8c3.5-0.2,15.8,0,15.8,0c0.8,0,1.6-0.8,1.6-1.6C80,39.2,79.2,38.4,78.4,38.4C78.4,38.4,78.4,38.4,78.4,38.4z
-                        " />
-                  </svg>
-                </div>
-              </div>
-  
-              <div class="marquee__item one-line item-regular text">
-                <p class="marquee__text">Mobile Apps</p>
-                <div class="marquee__image">
-                  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="currentColor">
-                    <path fill="currentColor" d="M78.4,38.4c0,0-11.8,0-15.8,0c-1.6,0-4.8-0.2-7.1-0.8c-2.3-0.6-4.3-0.8-6.3-2.4c-2-1.2-3.5-3.2-4.7-4.8
-                        c-1.2-1.6-1.6-3.6-2-5.5c-0.3-1.5-0.7-4.3-0.8-5.9c-0.2-4.3,0-17.4,0-17.4C41.8,0.8,41,0,40.2,0s-1.6,0.8-1.6,1.6c0,0,0,13.1,0,17.4
-                        c0,1.6-0.6,4.3-0.8,5.9c-0.3,2-0.8,4-2,5.5c-1.2,2-2.8,3.6-4.7,4.8s-4,1.8-6.3,2.4c-1.9,0.5-4.7,0.6-6.7,0.8c-3.9,0.4-16.6,0-16.6,0
-                        C0.8,38.4,0,39.2,0,40c0,0.8,0.8,1.6,1.6,1.6c0,0,12.2,0,16.6,0c1.6,0,4.8,0.3,6.7,0.8c2.3,0.6,4.3,0.8,6.3,2.4
-                        c1.6,1.2,3.2,2.8,4.3,4.4c1.2,2,2.1,3.9,2.4,6.3c0.2,1.7,0.7,4.7,0.8,6.7c0.2,4,0,16.2,0,16.2c0,0.8,0.8,1.6,1.6,1.6
-                        s1.6-0.8,1.6-1.6c0,0,0-12.3,0-16.2c0-1.6,0.5-5.1,0.8-6.7c0.5-2.3,0.8-4.4,2.4-6.3c1.2-1.6,2.8-3.2,4.3-4.4c2-1.2,3.9-2,6.3-2.4
-                        c1.8-0.3,5.1-0.7,7.1-0.8c3.5-0.2,15.8,0,15.8,0c0.8,0,1.6-0.8,1.6-1.6C80,39.2,79.2,38.4,78.4,38.4C78.4,38.4,78.4,38.4,78.4,38.4z
-                        " />
-                  </svg>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> -->
-
-
-
-
-
-    <!-- <div class="mxd-section padding-pre-title">
-          <div class="mxd-container fullwidth-container">
-
-      
-            <div class="mxd-block">
-              <div class="marquee marquee--gsap">
-            
-                <div class="marquee__top">
-               
-                  <div class="marquee__item image">
-                    <a class="marquee__link" href="team.html">
-                      <img src="img/marquee/1200x1000_marquee-10.webp" alt="Image">
-                    </a>
-                  </div>
-              
-                  <div class="marquee__item has-caption padding-4">
-                    <div class="mxd-section-title no-margin">
-                      <div class="container-fluid p-0">
-                        <div class="row g-0">
-                          <div class="col-12">
-                            <div class="mxd-section-title__descr">
-                              <p>Inspiring<br>ideas</p>
-                            </div>
-                          </div>
-                          <div class="col-12">
-                            <div class="mxd-section-title__controls">
-                              <a class="btn btn-anim btn-default btn-outline opposite slide-right-up" href="team.html">
-                                <span class="btn-caption">Meet Our Team</span>
-                                <i class="ph-bold ph-arrow-up-right"></i>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-               
-                  <div class="marquee__item">
-                    <a class="marquee__link" href="team.html">
-                      <img src="img/marquee/1200x1000_marquee-11.webp" alt="Image">
-                    </a>
-                  </div>
-              
-                  <div class="marquee__item">
-                    <a class="marquee__link" href="team.html">
-                      <img src="img/marquee/1200x1000_marquee-12.webp" alt="Image">
-                    </a>
-                  </div>
-           
-                  <div class="marquee__item has-caption padding-4">
-                    <div class="mxd-section-title no-margin">
-                      <div class="container-fluid p-0">
-                        <div class="row g-0">
-                          <div class="col-12">
-                            <div class="mxd-section-title__descr">
-                              <p>Creative<br>minds</p>
-                            </div>
-                          </div>
-                          <div class="col-12">
-                            <div class="mxd-section-title__controls">
-                              <a class="btn btn-anim btn-default btn-outline opposite slide-right-up" href="team.html">
-                                <span class="btn-caption">Meet Our Team</span>
-                                <i class="ph-bold ph-arrow-up-right"></i>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                
-                  <div class="marquee__item">
-                    <a class="marquee__link" href="team.html">
-                      <img src="img/marquee/1200x1000_marquee-09.webp" alt="Image">
-                    </a>
-                  </div>
-                </div>
-            
-                <div class="marquee__bottom">
-              
-                  <div class="marquee__item has-caption padding-4">
-                    <div class="mxd-section-title no-margin">
-                      <div class="container-fluid p-0">
-                        <div class="row g-0">
-                          <div class="col-12">
-                            <div class="mxd-section-title__descr">
-                              <p>Creative<br>minds</p>
-                            </div>
-                          </div>
-                          <div class="col-12">
-                            <div class="mxd-section-title__controls">
-                              <a class="btn btn-anim btn-default btn-outline opposite slide-right-up" href="team.html">
-                                <span class="btn-caption">Meet Our Team</span>
-                                <i class="ph-bold ph-arrow-up-right"></i>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-         
-                  <div class="marquee__item">
-                    <a class="marquee__link" href="team.html">
-                      <img src="img/marquee/1200x1000_marquee-13.webp" alt="Image">
-                    </a>
-                  </div>
-       
-                  <div class="marquee__item">
-                    <a class="marquee__link" href="team.html">
-                      <img src="img/marquee/1200x1000_marquee-14.webp" alt="Image">
-                    </a>
-                  </div>
-        
-                  <div class="marquee__item has-caption padding-4">
-                    <div class="mxd-section-title no-margin">
-                      <div class="container-fluid p-0">
-                        <div class="row g-0">
-                          <div class="col-12">
-                            <div class="mxd-section-title__descr">
-                              <p>Inspiring<br>ideas</p>
-                            </div>
-                          </div>
-                          <div class="col-12">
-                            <div class="mxd-section-title__controls">
-                              <a class="btn btn-anim btn-default btn-outline opposite slide-right-up" href="team.html">
-                                <span class="btn-caption">Meet Our Team</span>
-                                <i class="ph-bold ph-arrow-up-right"></i>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-      
-                  <div class="marquee__item">
-                    <a class="marquee__link" href="team.html">
-                      <img src="img/marquee/1200x1000_marquee-15.webp" alt="Image">
-                    </a>
-                  </div>
-
-                  <div class="marquee__item">
-                    <a class="marquee__link" href="team.html">
-                      <img src="img/marquee/1200x1000_marquee-16.webp" alt="Image">
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-       
-
-          </div>
-        </div> -->
-
-
-
-
-
-
-    <!-- 
-        <div class="mxd-section padding-default">
-          <div class="mxd-container grid-container">
-
-
-            <div class="mxd-block">
-              <div class="container-fluid px-0">
-                <div class="row gx-0 d-xl-flex justify-content-xl-center">
-                  <div class="col-12 col-xl-8 mxd-grid-item no-margin">
-                    <div class="mxd-block__content">
-                      <div class="mxd-block__manifest centered anim-uni-in-up">
-                        <p class="mxd-manifest mxd-manifest-l reveal-type">Web design is evolving rapidly,
-                          and I strive to stay ahead. Emerging tools and technologies enable me to create
-                          visually stunning and seamlessly functional websites.</p>
-                        <div class="mxd-manifest__controls anim-uni-in-up">
-                          <div class="mxd-btngroup centered">
-                            <a class="btn btn-anim btn-default btn-accent slide-right-up" href="works-masonry.html">
-                              <span class="btn-caption">My Works</span>
-                              <i class="ph-bold ph-arrow-up-right"></i>
-                            </a>
-                            <a class="btn btn-anim btn-default btn-outline slide-down" href="#0">
-                              <span class="btn-caption">Download CV</span>
-                              <i class="ph-bold ph-arrow-down"></i>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-      
-
-          </div>
-        </div> -->
-
-
-
-
-    <!-- <div class="mxd-section overflow-hidden">
-          <div class="mxd-container">
-
-
-            <div class="mxd-block">
-              <div class="mxd-promo">
-                <div class="mxd-promo__inner anim-zoom-out-container">
-         
-                  <div class="mxd-promo__bg"></div>
-    
-                  <div class="mxd-promo__content">
-                    <p class="mxd-promo__title anim-uni-in-up">
-                      <span class="mxd-promo__icon">
-                        <img src="img/icons/300x300_obj-cta-01.webp" alt="Icon">
-                      </span>
-                      <span class="mxd-promo__caption reveal-type">Let's talk about your project!</span>
-                    </p>
-                    <div class="mxd-promo__controls anim-uni-in-up">
-                      <a class="btn btn-anim btn-default btn-large btn-additional slide-right-up" href="contact.html">
-                        <span class="btn-caption">Contact Me</span>
-                        <i class="ph-bold ph-arrow-up-right"></i>
-                      </a>
-                    </div>
-                  </div>
-     
-                  <div class="mxd-promo__images">
-                    <img class="promo-image promo-image-1" src="img/illustrations/cta-img-01.webp" alt="Image">
-                    <img class="promo-image promo-image-2" src="img/illustrations/cta-img-02.webp" alt="Image">
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-          </div>
-        </div> -->
-
-
-
-
-  </main>
-
-
-
-  <!-- <footer id="mxd-footer" class="mxd-footer">
-
-
-      <div class="mxd-footer__text-wrap">
-        <div class="fullwidth-text__tl-trigger"></div>
-        <div class="mxd-footer__fullwidth-text personal anim-top-to-bottom">
-          <svg class="mxd-footer__svg-v2" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-            viewBox="0 0 518 72" style="enable-background:new 0 0 518 72;" xml:space="preserve">
-            <path d="M18.9,71.9C13,71.9,8.4,70.5,5,67.6c-3.4-2.9-5-6.7-5-11.4c0-5,1.7-8.8,5.1-11.5c3.4-2.7,8.3-4.1,14.8-4.1h15.5v-2
-              c0-6.2-3.6-9.3-10.8-9.3c-6.1,0-9.8,2.2-11.1,6.6H0.8c1.1-5.4,3.6-9.5,7.7-12.4c4.1-2.8,9.4-4.3,16-4.3c7.4,0,13.1,1.7,17,5
-              c3.9,3.4,5.8,8.2,5.8,14.7v19.4h6V71H40.4v-8.1h-3.6c-1.7,2.9-4.1,5.1-7.1,6.7C26.9,71.1,23.2,71.9,18.9,71.9z M20.8,62.2
-              c2.8,0,5.2-0.5,7.4-1.6c2.2-1,3.9-2.4,5.2-4.2c1.3-1.8,1.9-3.8,1.9-6v-1.2H20.6c-5.7,0-8.5,2.1-8.5,6.3c0,2.1,0.8,3.7,2.3,4.9
-              C15.9,61.6,18,62.2,20.8,62.2z M63.1,71V0h12.6v71H63.1z M111.8,72c-5.4,0-10.1-1.1-14.2-3.3c-4-2.2-7.1-5.2-9.3-9.2
-              c-2.2-4-3.3-8.7-3.3-14.1c0-5.4,1.1-10.1,3.2-14c2.1-3.9,5.2-6.9,9.1-9c3.9-2.1,8.6-3.2,13.9-3.2c5.2,0,9.6,1,13.4,3
-              c3.7,2,6.6,4.9,8.6,8.6c2,3.7,3,8.2,3,13.3v4.4H97.2c0.5,4.3,2,7.6,4.5,9.8c2.5,2.3,5.8,3.4,10,3.4c3.1,0,5.6-0.6,7.6-1.7
-              c1.9-1.2,3.3-2.9,4.1-5.2h12.7c-1.2,5.4-3.9,9.5-8.2,12.5C123.7,70.5,118.3,72,111.8,72z M97.5,40.1h26.7c-0.5-3.5-1.8-6.2-4-8
-              c-2.2-1.8-5.2-2.7-8.9-2.7c-3.7,0-6.7,0.9-9,2.8C99.9,34,98.3,36.6,97.5,40.1z M138.4,71L158.3,45l-18.9-24.8h14l12.2,16l12.3-16
-              h13.9L172.9,45L192.8,71h-14.1l-13.1-17.3L152.4,71H138.4z M210.5,71l-16.3-50.7h12.9l10.7,35.1h0.4l12.5-35.1h12.1l12.5,35.1h0.4
-              l10.7-35.1h12.8L262.9,71h-13.5l-12.5-34.4h-0.3L224,71H210.5z M301,71.9c-5.9,0-10.6-1.4-13.9-4.3c-3.4-2.9-5-6.7-5-11.4
-              c0-5,1.7-8.8,5.1-11.5c3.4-2.7,8.3-4.1,14.8-4.1h15.5v-2c0-6.2-3.6-9.3-10.8-9.3c-6.1,0-9.8,2.2-11.1,6.6h-12.6
-              c1.1-5.4,3.6-9.5,7.7-12.4c4.1-2.8,9.4-4.3,16-4.3c7.4,0,13.1,1.7,17,5c3.9,3.4,5.8,8.2,5.8,14.7v19.4h6V71h-12.9v-8.1h-3.6
-              c-1.7,2.9-4.1,5.1-7.1,6.7C308.9,71.1,305.3,71.9,301,71.9z M302.9,62.2c2.8,0,5.2-0.5,7.4-1.6c2.2-1,3.9-2.4,5.2-4.2
-              c1.3-1.8,1.9-3.8,1.9-6v-1.2h-14.8c-5.7,0-8.5,2.1-8.5,6.3c0,2.1,0.8,3.7,2.3,4.9C297.9,61.6,300.1,62.2,302.9,62.2z M345.1,71V0
-              h12.6v71H345.1z M369.9,71V0h12.6v39.9h0.3l21.4-19.6h15.1l-22.1,19.9L421.1,71h-14.9l-17.8-23.1l-5.9,4.8V71H369.9z M449.4,72
-              c-5.4,0-10.1-1.1-14.2-3.3c-4-2.2-7.1-5.2-9.3-9.2c-2.2-4-3.3-8.7-3.3-14.1c0-5.4,1.1-10.1,3.2-14c2.1-3.9,5.2-6.9,9.1-9
-              c3.9-2.1,8.6-3.2,13.9-3.2c5.2,0,9.6,1,13.4,3c3.7,2,6.6,4.9,8.6,8.6c2,3.7,3,8.2,3,13.3v4.4h-39.2c0.5,4.3,2,7.6,4.5,9.8
-              c2.5,2.3,5.8,3.4,10,3.4c3.1,0,5.6-0.6,7.6-1.7c1.9-1.2,3.3-2.9,4.1-5.2h12.7c-1.2,5.4-3.9,9.5-8.2,12.5
-              C461.3,70.5,455.9,72,449.4,72z M435.1,40.1h26.7c-0.5-3.5-1.8-6.2-4-8c-2.2-1.8-5.2-2.7-8.9-2.7c-3.7,0-6.7,0.9-9,2.8
-              C437.5,34,435.9,36.6,435.1,40.1z M487,71V32.9h-6.3V20.3h12.9v9.8h3.6c1.4-3.4,3.6-5.9,6.5-7.7c2.9-1.7,6.3-2.6,10.1-2.6h4.2v10.8
-              h-4.8c-4.6,0-8.1,1.3-10.3,4c-2.3,2.6-3.4,6.2-3.4,10.6V71H487z"/>
-          </svg>
-        </div>
-      </div>
-
-
-
-      <div class="mxd-footer__footer-blocks">
-   
-        <div class="footer-blocks__column animate-card-3">
-    
-          <div class="footer-blocks__card fullheight-card">
-      
-            <div class="footer-blocks__nav">
-              <ul class="footer-nav">
-                <li class="footer-nav__item anim-uni-in-up">
-                  <a href="index-main.html" class="footer-nav__link btn-anim">
-                    <span class="btn-caption">Home</span>
-                  </a>
-                </li>
-                <li class="footer-nav__item anim-uni-in-up">
-                  <a href="about-me.html" class="footer-nav__link btn-anim">
-                    <span class="btn-caption">About me</span>
-                  </a>
-                </li>
-                <li class="footer-nav__item anim-uni-in-up">
-                  <a href="works-simple.html" class="footer-nav__link btn-anim">
-                    <span class="btn-caption">Works</span>
-                  </a>
-                  <p class="footer-nav__counter">
-                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 20 20" fill="currentColor">
-                      <path fill="currentColor" d="M19.6,9.6c0,0-3,0-4,0c-0.4,0-1.8-0.2-1.8-0.2c-0.6-0.1-1.1-0.2-1.6-0.6c-0.5-0.3-0.9-0.8-1.2-1.2
-                        c-0.3-0.4-0.4-0.9-0.5-1.4c0,0-0.1-1.1-0.2-1.5c-0.1-1.1,0-4.4,0-4.4C10.4,0.2,10.2,0,10,0S9.6,0.2,9.6,0.4c0,0,0.1,3.3,0,4.4
-                        c0,0.4-0.2,1.5-0.2,1.5C9.4,6.7,9.2,7.2,9,7.6C8.7,8.1,8.2,8.5,7.8,8.9c-0.5,0.3-1,0.5-1.6,0.6c0,0-1.2,0.1-1.7,0.2
-                        c-1,0.1-4.2,0-4.2,0C0.2,9.6,0,9.8,0,10c0,0.2,0.2,0.4,0.4,0.4c0,0,3.1-0.1,4.2,0c0.4,0,1.7,0.2,1.7,0.2c0.6,0.1,1.1,0.2,1.6,0.6
-                        c0.4,0.3,0.8,0.7,1.1,1.1c0.3,0.5,0.5,1,0.6,1.6c0,0,0.1,1.3,0.2,1.7c0,1,0,4.1,0,4.1c0,0.2,0.2,0.4,0.4,0.4s0.4-0.2,0.4-0.4
-                        c0,0,0-3.1,0-4.1c0-0.4,0.2-1.7,0.2-1.7c0.1-0.6,0.2-1.1,0.6-1.6c0.3-0.4,0.7-0.8,1.1-1.1c0.5-0.3,1-0.5,1.6-0.6
-                        c0,0,1.3-0.1,1.8-0.2c1,0,4,0,4,0c0.2,0,0.4-0.2,0.4-0.4C20,9.8,19.8,9.6,19.6,9.6L19.6,9.6z"></path>
-                    </svg>
-                    <span>10</span>
-                  </p>
-                </li>
-                <li class="footer-nav__item anim-uni-in-up">
-                  <a href="services.html" class="footer-nav__link btn-anim">
-                    <span class="btn-caption">Services</span>
-                  </a>
-                </li>
-                <li class="footer-nav__item anim-uni-in-up">
-                  <a href="blog-standard.html" class="footer-nav__link btn-anim">
-                    <span class="btn-caption">Insights</span>
-                  </a>
-                </li>
-                <li class="footer-nav__item anim-uni-in-up">
-                  <a href="contact.html" class="footer-nav__link btn-anim">
-                    <span class="btn-caption">Contact</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          
-            <div class="footer-blocks__links anim-uni-in-up">
-              <a class="btn btn-line-xsmall btn-muted slide-right anim-no-delay" href="#0">
-                <span class="btn-caption">Privacy Policy</span>
-                <i class="ph ph-arrow-right"></i>
-              </a>
-              <a class="btn btn-line-xsmall btn-muted slide-right anim-no-delay" href="#0">
-                <span class="btn-caption">Terms & conditions</span>
-                <i class="ph ph-arrow-right"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      
-        <div class="footer-blocks__column animate-card-3">
-          
-          <div class="footer-blocks__card">
-            <p class="mxd-point-subtitle anim-uni-in-up">
-              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 20 20" fill="currentColor">
-                <path fill="currentColor" d="M19.6,9.6c0,0-3,0-4,0c-0.4,0-1.8-0.2-1.8-0.2c-0.6-0.1-1.1-0.2-1.6-0.6c-0.5-0.3-0.9-0.8-1.2-1.2
-                  c-0.3-0.4-0.4-0.9-0.5-1.4c0,0-0.1-1.1-0.2-1.5c-0.1-1.1,0-4.4,0-4.4C10.4,0.2,10.2,0,10,0S9.6,0.2,9.6,0.4c0,0,0.1,3.3,0,4.4
-                  c0,0.4-0.2,1.5-0.2,1.5C9.4,6.7,9.2,7.2,9,7.6C8.7,8.1,8.2,8.5,7.8,8.9c-0.5,0.3-1,0.5-1.6,0.6c0,0-1.2,0.1-1.7,0.2
-                  c-1,0.1-4.2,0-4.2,0C0.2,9.6,0,9.8,0,10c0,0.2,0.2,0.4,0.4,0.4c0,0,3.1-0.1,4.2,0c0.4,0,1.7,0.2,1.7,0.2c0.6,0.1,1.1,0.2,1.6,0.6
-                  c0.4,0.3,0.8,0.7,1.1,1.1c0.3,0.5,0.5,1,0.6,1.6c0,0,0.1,1.3,0.2,1.7c0,1,0,4.1,0,4.1c0,0.2,0.2,0.4,0.4,0.4s0.4-0.2,0.4-0.4
-                  c0,0,0-3.1,0-4.1c0-0.4,0.2-1.7,0.2-1.7c0.1-0.6,0.2-1.1,0.6-1.6c0.3-0.4,0.7-0.8,1.1-1.1c0.5-0.3,1-0.5,1.6-0.6
-                  c0,0,1.3-0.1,1.8-0.2c1,0,4,0,4,0c0.2,0,0.4-0.2,0.4-0.4C20,9.8,19.8,9.6,19.6,9.6L19.6,9.6z"></path>
-              </svg>
-              <a href="mailto:example@example.com?subject=Message%20from%20your%20site">hello@rayostudio.com</a>
-            </p>
-          </div>
-    
-          <div class="footer-blocks__card">
-            <p class="mxd-point-subtitle anim-uni-in-up">
-              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 20 20" fill="currentColor">
-                <path fill="currentColor" d="M19.6,9.6c0,0-3,0-4,0c-0.4,0-1.8-0.2-1.8-0.2c-0.6-0.1-1.1-0.2-1.6-0.6c-0.5-0.3-0.9-0.8-1.2-1.2
-                  c-0.3-0.4-0.4-0.9-0.5-1.4c0,0-0.1-1.1-0.2-1.5c-0.1-1.1,0-4.4,0-4.4C10.4,0.2,10.2,0,10,0S9.6,0.2,9.6,0.4c0,0,0.1,3.3,0,4.4
-                  c0,0.4-0.2,1.5-0.2,1.5C9.4,6.7,9.2,7.2,9,7.6C8.7,8.1,8.2,8.5,7.8,8.9c-0.5,0.3-1,0.5-1.6,0.6c0,0-1.2,0.1-1.7,0.2
-                  c-1,0.1-4.2,0-4.2,0C0.2,9.6,0,9.8,0,10c0,0.2,0.2,0.4,0.4,0.4c0,0,3.1-0.1,4.2,0c0.4,0,1.7,0.2,1.7,0.2c0.6,0.1,1.1,0.2,1.6,0.6
-                  c0.4,0.3,0.8,0.7,1.1,1.1c0.3,0.5,0.5,1,0.6,1.6c0,0,0.1,1.3,0.2,1.7c0,1,0,4.1,0,4.1c0,0.2,0.2,0.4,0.4,0.4s0.4-0.2,0.4-0.4
-                  c0,0,0-3.1,0-4.1c0-0.4,0.2-1.7,0.2-1.7c0.1-0.6,0.2-1.1,0.6-1.6c0.3-0.4,0.7-0.8,1.1-1.1c0.5-0.3,1-0.5,1.6-0.6
-                  c0,0,1.3-0.1,1.8-0.2c1,0,4,0,4,0c0.2,0,0.4-0.2,0.4-0.4C20,9.8,19.8,9.6,19.6,9.6L19.6,9.6z"></path>
-              </svg>
-              <a href="tel:+12127089400">+1 212-708-9400</a>
-            </p>
-          </div>
-     
-          <div class="footer-blocks__card fill-card notify">
- 
-            <div class="footer-blocks__title anim-uni-in-up">
-              <p class="footer-blocks__title-m">Subscribe to our insights:</p>
-            </div>
-   
-            <div class="form-container anim-uni-in-up">
- 
-              <div class="form__reply subscription-ok">
-                <span class="reply__text">Done! Thanks for subscribing.</span>
-              </div>
-              <div class="form__reply subscription-error">
-                <span class="reply__text">Ooops! Something went wrong. Please try again later.</span>
-              </div>
-  
-              <form class="form notify-form form-light">
-                <input type="email" placeholder="Your Email" required>
-                <button class="btn btn-form btn-absolute-right btn-muted slide-right-up anim-no-delay" type="submit" aria-label="Submit">
-                  <i class="ph ph-arrow-up-right"></i>
-                </button>
-              </form>
-            </div>
-          </div>
-        </div>
-
-        <div class="footer-blocks__column animate-card-3">
-
-          <div class="footer-blocks__card fullheight-card">
-
-            <div class="footer-blocks__block">
-
-              <div class="footer-blocks__title anim-uni-in-up">
-                <p class="footer-blocks__title-l">Ecosystem</p>
-              </div>
-        
-              <div class="footer-blocks__socials">
-                <ul class="footer-socials">
-                  <li class="footer-socials__item anim-uni-in-up"><a href="https://dribbble.com/" class="footer-socials__link" target="_blank">Dribbble</a></li>
-                  <li class="footer-socials__item anim-uni-in-up"><a href="https://www.behance.net/" class="footer-socials__link" target="_blank">Behance</a></li>
-                  <li class="footer-socials__item anim-uni-in-up"><a href="https://www.instagram.com/" class="footer-socials__link" target="_blank">Instagram</a></li>
-                  <li class="footer-socials__item anim-uni-in-up"><a href="https://github.com/" class="footer-socials__link" target="_blank">Github</a></li>
-                  <li class="footer-socials__item anim-uni-in-up"><a href="https://codepen.io/" class="footer-socials__link" target="_blank">Codepen</a></li>
-                  <li class="footer-socials__item anim-uni-in-up"><a href="https://www.figma.com/community" class="footer-socials__link" target="_blank">Figma Community</a></li>
-                </ul>
-              </div>
-            </div>
-      
-            <div class="footer-blocks__links anim-uni-in-up">
-              <p class="t-xsmall t-muted">
-                <a class="no-effect" href="https://1.envato.market/EKA9WD" target="_blank">Mix_Design</a>
-                <i class="ph-bold ph-copyright"></i>
-                2025
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </footer> -->
-
-
-
-
-  <!-- Footer Demo End --> <!-- Footer Container Start -->
-  <div class="mxd-container grid-container">
-
-    <!-- Footer Block - Content Block Start -->
-    <div class="mxd-block">
-      <div class="container-fluid p-0">
-        <div class="row g-0">
-
-
-          <!-- To Top Button Start -->
-          <a href="#0" id="to-top" class="btn btn-to-top slide-up anim-no-delay">
-            <i class="ph ph-arrow-up"></i>
-          </a>
-          <!-- To Top Button End -->
-
-          <!-- Load Scripts Start -->
-          <script src="js/libs.min.js"></script>
-          <script src="js/app.min.js"></script>
-          <!-- Load Scripts End -->
 
+    <div class="footer-big" aria-hidden="true">Velocity &amp; Comfort</div>
+  </div>
+</footer>
+
+<!-- ============================ FLOATING ACTIONS ============================ -->
+<div class="wa-float">
+  <span class="wa-label">Chat with us on WhatsApp</span>
+  <a class="wa-btn" href="https://wa.me/919876543210?text=Hi%20Velora%20Travels!%20I%27d%20like%20to%20enquire%20about%20the%20Force%20Urbania." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 00-8.6 15.1L2 22l5.1-1.3A10 10 0 1012 2zm5.6 14.2c-.2.7-1.4 1.3-2 1.4-.5.1-1.1.1-1.8-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5-4.5-.2-.2-1.2-1.6-1.2-3s.8-2.1 1-2.4c.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .6l-.4.6c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.1 1 2 1.3 2.3 1.4.3.1.4.1.6-.1l.8-1c.2-.2.3-.2.6-.1l2 1c.3.1.5.2.5.3.1.2.1.7-.1 1.3z"/></svg>
+  </a>
+</div>
+
+<button class="to-top" id="toTop" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<script>
+(function(){
+  'use strict';
+
+  var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* ---------------------------------------------------------
+     YEAR
+  --------------------------------------------------------- */
+  var yearEl = document.getElementById('year');
+  if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+  /* ---------------------------------------------------------
+     NAV SCROLL STATE + PROGRESS
+  --------------------------------------------------------- */
+  var nav = document.getElementById('nav');
+  var progress = document.getElementById('progress');
+  var toTop = document.getElementById('toTop');
+  var heroBg = document.getElementById('heroBg');
+  var ticking = false;
+
+  function updateScroll(){
+    var y = window.scrollY || window.pageYOffset;
+
+    if (nav) nav.classList.toggle('scrolled', y > 40);
+    if (toTop) toTop.classList.toggle('show', y > 700);
+
+    var docH = document.documentElement.scrollHeight - window.innerHeight;
+    if (progress) progress.style.width = (docH > 0 ? (y / docH) * 100 : 0) + '%';
+
+    // Hero parallax
+    if (heroBg && !reduceMotion && window.innerWidth > 760){
+      var shift = Math.min(y * 0.28, 380);
+      heroBg.style.transform = 'translate3d(0,' + (-shift) + 'px,0) scale(1.03)';
+    } else if (heroBg){
+      heroBg.style.transform = 'scale(1.03)';
+    }
+    ticking = false;
+  }
+
+  window.addEventListener('scroll', function(){
+    if (!ticking){
+      window.requestAnimationFrame(updateScroll);
+      ticking = true;
+    }
+  }, { passive: true });
+  window.addEventListener('resize', updateScroll);
+  updateScroll();
+
+  /* ---------------------------------------------------------
+     MOBILE MENU
+  --------------------------------------------------------- */
+  var burger = document.getElementById('burger');
+  var mobileMenu = document.getElementById('mobileMenu');
+
+  function closeMenu(){
+    if (!burger || !mobileMenu) return;
+    burger.classList.remove('open');
+    mobileMenu.classList.remove('open');
+    burger.setAttribute('aria-expanded','false');
+    document.body.style.overflow = '';
+  }
+
+  if (burger && mobileMenu){
+    burger.addEventListener('click', function(){
+      var open = mobileMenu.classList.toggle('open');
+      burger.classList.toggle('open', open);
+      burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+      document.body.style.overflow = open ? 'hidden' : '';
+    });
+    mobileMenu.querySelectorAll('a').forEach(function(a){
+      a.addEventListener('click', closeMenu);
+    });
+  }
+
+  /* ---------------------------------------------------------
+     REVEAL ON SCROLL
+  --------------------------------------------------------- */
+  var revealEls = document.querySelectorAll('.reveal, .reveal-s');
+  if ('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if (entry.isIntersecting){
+          entry.target.classList.add('in');
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
+
+    revealEls.forEach(function(el){ io.observe(el); });
+  } else {
+    revealEls.forEach(function(el){ el.classList.add('in'); });
+  }
+
+  /* ---------------------------------------------------------
+     COUNTERS
+  --------------------------------------------------------- */
+  var counters = document.querySelectorAll('.count');
+  function runCounter(el){
+    var target = parseFloat(el.getAttribute('data-count')) || 0;
+    var dec = parseInt(el.getAttribute('data-dec') || '0', 10);
+    var dur = 1600;
+    var start = null;
+
+    function step(ts){
+      if (start === null) start = ts;
+      var p = Math.min((ts - start) / dur, 1);
+      var eased = 1 - Math.pow(1 - p, 3);
+      el.textContent = (target * eased).toFixed(dec);
+      if (p < 1) requestAnimationFrame(step);
+      else el.textContent = target.toFixed(dec);
+    }
+    requestAnimationFrame(step);
+  }
+
+  if (counters.length && 'IntersectionObserver' in window){
+    var cio = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if (e.isIntersecting){
+          runCounter(e.target);
+          cio.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.5 });
+    counters.forEach(function(c){ cio.observe(c); });
+  } else {
+    counters.forEach(function(c){ c.textContent = c.getAttribute('data-count'); });
+  }
+
+  /* ---------------------------------------------------------
+     VEHICLE SHOWCASE (tabs + hotspots)
+  --------------------------------------------------------- */
+  var VIEWS = {
+    exterior: {
+      tag: 'Exterior',
+      img: 'https://cdn.outpickz.com/metro_travel_hub/1000422964%20(1).webp',
+      hotspots: [
+        { x: 16, y: 60, title: 'Twin-Projector Headlamps', text: 'Sharp, wide-beam illumination that makes night highway driving calm and confident.' },
+        { x: 47, y: 34, title: 'Panoramic Glasshouse', text: 'Generous tinted glazing keeps the cabin bright, airy and cool on long summer runs.' },
+        { x: 80, y: 62, title: '16-Inch Alloy Wheels', text: 'Planted, stable ride quality with low road noise, even fully loaded.' },
+        { x: 33, y: 76, title: 'Wide Sliding Door', text: 'Effortless boarding for children and elders, with a low step-in height.' }
+      ]
+    },
+    cabin: {
+      tag: 'Cabin',
+      img: 'https://cdn.outpickz.com/metro_travel_hub/Picsart_26-09-29_20-18-37-786.webp',
+      hotspots: [
+        { x: 22, y: 58, title: '2×1 Pushback Recliners', text: 'Airline-style seating with a clear aisle so nobody climbs over anybody.' },
+        { x: 58, y: 40, title: 'Dual-Zone Climate Control', text: 'Front and rear zones set independently — everyone finds their perfect temperature.' },
+        { x: 76, y: 68, title: 'LED Reading Lights', text: 'Individual overhead lighting for late-night reading without disturbing others.' },
+        { x: 42, y: 78, title: 'Rear Entertainment System', text: 'Roof-mounted speakers and a media input for playlists, movies and quiet time.' }
+      ]
+    },
+    comfort: {
+      tag: 'Comfort',
+      img: 'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1600&q=80',
+      hotspots: [
+        { x: 25, y: 52, title: 'Class-Leading Legroom', text: 'Generous knee and shoulder room, so a 500 km day still feels easy.' },
+        { x: 60, y: 44, title: 'USB Charging Everywhere', text: 'Dedicated charge points at every row — phones and tablets stay powered.' },
+        { x: 78, y: 66, title: 'Ambient Cabin Lighting', text: 'Soft indirect lighting for a relaxed, premium evening atmosphere.' },
+        { x: 40, y: 80, title: 'Dedicated Luggage Bay', text: 'A deep rear boot swallows suitcases, strollers and shopping bags with room to spare.' }
+      ]
+    }
+  };
+
+  var viewer = document.getElementById('viewer');
+  var viewerImgA = document.getElementById('viewerImgA');
+  var viewerImgB = document.getElementById('viewerImgB');
+  var viewerTag = document.getElementById('viewerTag');
+  var hotspotsWrap = document.getElementById('hotspots');
+  var hotspotCard = document.getElementById('hotspotCard');
+  var hcTitle = document.getElementById('hcTitle');
+  var hcText = document.getElementById('hcText');
+  var dpNum = document.getElementById('dpNum');
+  var dpTitle = document.getElementById('dpTitle');
+  var dpText = document.getElementById('dpText');
+  var detailNav = document.getElementById('detailNav');
+  var tabs = document.querySelectorAll('.tab');
+
+  var activeView = 'exterior';
+  var activeIndex = 0;
+  var useA = true;
+
+  function renderHotspots(view, index){
+    if (!hotspotsWrap) return;
+    var data = VIEWS[view];
+    hotspotsWrap.innerHTML = '';
+    if (detailNav) detailNav.innerHTML = '';
+
+    data.hotspots.forEach(function(h, i){
+      var btn = document.createElement('button');
+      btn.className = 'hotspot' + (i === index ? ' active' : '');
+      btn.style.left = h.x + '%';
+      btn.style.top = h.y + '%';
+      btn.setAttribute('aria-label', h.title);
+      btn.innerHTML = '<i></i>';
+
+      btn.addEventListener('mouseenter', function(){ activateHotspot(view, i); });
+      btn.addEventListener('click', function(e){
+        e.preventDefault();
+        activateHotspot(view, i);
+      });
+
+      hotspotsWrap.appendChild(btn);
+
+      if (detailNav){
+        var bar = document.createElement('span');
+        bar.className = 'detail-dot' + (i === index ? ' active' : '');
+        detailNav.appendChild(bar);
+      }
+    });
+
+    positionCard(view, index);
+  }
+
+  function positionCard(view, index){
+    if (!hotspotCard || !viewer) return;
+    var h = VIEWS[view].hotspots[index];
+    var w = viewer.clientWidth;
+    var ht = viewer.clientHeight;
+    var cardW = w < 520 ? 200 : 230;
+    var left, top;
+
+    if (h.x > 58){
+      left = (h.x / 100) * w - cardW - 26;
+    } else {
+      left = (h.x / 100) * w + 26;
+    }
+    left = Math.max(10, Math.min(left, w - cardW - 10));
+
+    top = (h.y / 100) * ht - 46;
+    top = Math.max(10, Math.min(top, ht - 130));
+
+    hotspotCard.style.left = left + 'px';
+    hotspotCard.style.top = top + 'px';
+  }
+
+  function activateHotspot(view, index){
+    activeIndex = index;
+    var h = VIEWS[view].hotspots[index];
+
+    if (hcTitle) hcTitle.textContent = h.title;
+    if (hcText) hcText.textContent = h.text;
+    if (dpTitle) dpTitle.textContent = h.title;
+    if (dpText) dpText.textContent = h.text;
+    if (dpNum) dpNum.textContent = '0' + (index + 1) + ' / 0' + VIEWS[view].hotspots.length;
+
+    var dots = hotspotsWrap.querySelectorAll('.hotspot');
+    dots.forEach(function(d, i){ d.classList.toggle('active', i === index); });
+
+    if (detailNav){
+      var bars = detailNav.querySelectorAll('.detail-dot');
+      bars.forEach(function(b, i){ b.classList.toggle('active', i === index); });
+    }
+
+    if (hotspotCard){
+      hotspotCard.classList.add('show');
+      positionCard(view, index);
+    }
+  }
+
+  function setView(view){
+    if (!VIEWS[view]) return;
+    activeView = view;
+    activeIndex = 0;
+
+    var data = VIEWS[view];
+    var incoming = useA ? viewerImgB : viewerImgA;
+    var outgoing = useA ? viewerImgA : viewerImgB;
+    useA = !useA;
+
+    if (incoming && outgoing){
+      if (incoming.getAttribute('src') !== data.img){
+        incoming.setAttribute('src', data.img);
+      }
+      incoming.style.display = '';
+      incoming.onload = function(){
+        incoming.classList.add('show');
+        outgoing.classList.remove('show');
+      };
+      // Fallback if already cached (onload may not fire)
+      setTimeout(function(){
+        incoming.classList.add('show');
+        outgoing.classList.remove('show');
+      }, 40);
+      incoming.onerror = function(){
+        incoming.style.display = 'none';
+        outgoing.classList.remove('show');
+      };
+    }
+
+    if (viewerTag) viewerTag.textContent = data.tag;
+
+    tabs.forEach(function(t){
+      var isActive = t.getAttribute('data-view') === view;
+      t.classList.toggle('active', isActive);
+      t.setAttribute('aria-selected', isActive ? 'true' : 'false');
+    });
+
+    renderHotspots(view, 0);
+    activateHotspot(view, 0);
+  }
+
+  tabs.forEach(function(t){
+    t.addEventListener('click', function(){
+      setView(t.getAttribute('data-view'));
+    });
+  });
+
+  if (viewer && hotspotsWrap){
+    renderHotspots('exterior', 0);
+    activateHotspot('exterior', 0);
+    window.addEventListener('resize', function(){
+      positionCard(activeView, activeIndex);
+    });
+    viewer.addEventListener('mouseleave', function(){
+      if (hotspotCard) hotspotCard.classList.remove('show');
+    });
+  }
+
+  /* ---------------------------------------------------------
+     TESTIMONIAL CAROUSEL
+  --------------------------------------------------------- */
+  var tstTrack = document.getElementById('tstTrack');
+  var tstDots = document.querySelectorAll('.tst-dot');
+  var tstPrev = document.getElementById('tstPrev');
+  var tstNext = document.getElementById('tstNext');
+  var tstIndex = 0;
+  var tstTotal = tstDots.length;
+  var autoplayTimer = null;
+
+  function goTo(i){
+    if (!tstTrack) return;
+    tstIndex = (i + tstTotal) % tstTotal;
+    tstTrack.style.transform = 'translateX(-' + (tstIndex * 100) + '%)';
+    tstDots.forEach(function(d, idx){
+      d.classList.toggle('active', idx === tstIndex);
+    });
+  }
+
+  function startAutoplay(){
+    if (reduceMotion || tstTotal < 2) return;
+    stopAutoplay();
+    autoplayTimer = setInterval(function(){ goTo(tstIndex + 1); }, 6500);
+  }
+  function stopAutoplay(){
+    if (autoplayTimer) clearInterval(autoplayTimer);
+    autoplayTimer = null;
+  }
+
+  if (tstTrack && tstTotal){
+    tstDots.forEach(function(d){
+      d.addEventListener('click', function(){
+        goTo(parseInt(d.getAttribute('data-i'), 10));
+        startAutoplay();
+      });
+    });
+    if (tstPrev) tstPrev.addEventListener('click', function(){ goTo(tstIndex - 1); startAutoplay(); });
+    if (tstNext) tstNext.addEventListener('click', function(){ goTo(tstIndex + 1); startAutoplay(); });
+
+    var viewport = tstTrack.parentElement;
+    if (viewport){
+      viewport.addEventListener('mouseenter', stopAutoplay);
+      viewport.addEventListener('mouseleave', startAutoplay);
+    }
+
+    // Touch swipe
+    var startX = 0, deltaX = 0, dragging = false;
+    if (viewport){
+      viewport.addEventListener('touchstart', function(e){
+        dragging = true; startX = e.touches[0].clientX; deltaX = 0; stopAutoplay();
+      }, { passive: true });
+      viewport.addEventListener('touchmove', function(e){
+        if (!dragging) return;
+        deltaX = e.touches[0].clientX - startX;
+      }, { passive: true });
+      viewport.addEventListener('touchend', function(){
+        if (!dragging) return;
+        dragging = false;
+        if (Math.abs(deltaX) > 50) goTo(tstIndex + (deltaX < 0 ? 1 : -1));
+        startAutoplay();
+      });
+    }
+
+    startAutoplay();
+  }
+
+  /* ---------------------------------------------------------
+     BOOKING FORM -> WHATSAPP
+  --------------------------------------------------------- */
+  var form = document.getElementById('bookingForm');
+  var success = document.getElementById('formSuccess');
+  var WHATSAPP_NUMBER = '919876543210';
+
+  function setError(input, on){
+    var field = input.closest('.field');
+    if (field) field.classList.toggle('error', on);
+  }
+
+  if (form){
+    // Set min date to today
+    var dateInput = document.getElementById('bDate');
+    if (dateInput){
+      var today = new Date();
+      var mm = String(today.getMonth() + 1).padStart(2, '0');
+      var dd = String(today.getDate()).padStart(2, '0');
+      dateInput.min = today.getFullYear() + '-' + mm + '-' + dd;
+    }
+
+    form.querySelectorAll('input, select, textarea').forEach(function(el){
+      el.addEventListener('input', function(){ setError(el, false); });
+      el.addEventListener('change', function(){ setError(el, false); });
+    });
+
+    form.addEventListener('submit', function(e){
+      e.preventDefault();
+
+      var name = document.getElementById('bName');
+      var phone = document.getElementById('bPhone');
+      var from = document.getElementById('bFrom');
+      var date = document.getElementById('bDate');
+
+      var valid = true;
+
+      if (!name.value.trim()){ setError(name, true); valid = false; }
+      var digits = phone.value.replace(/[^0-9]/g, '');
+      if (digits.length < 8){ setError(phone, true); valid = false; }
+      if (!from.value.trim()){ setError(from, true); valid = false; }
+      if (!date.value){ setError(date, true); valid = false; }
+
+      if (!valid){
+        var firstErr = form.querySelector('.field.error input, .field.error select');
+        if (firstErr) firstErr.focus();
+        return;
+      }
+
+      var type = document.getElementById('bType').value;
+      var pax = document.getElementById('bPax').value;
+      var to = document.getElementById('bTo').value.trim();
+      var time = document.getElementById('bTime').value;
+      var msg = document.getElementById('bMsg').value.trim();
+
+      var lines = [
+        'New Booking Request — Force Urbania',
+        '',
+        'Name: ' + name.value.trim(),
+        'Phone: ' + phone.value.trim(),
+        'Trip Type: ' + type,
+        'Passengers: ' + pax,
+        'Pickup: ' + from.value.trim(),
+        to ? 'Destination: ' + to : null,
+        'Date: ' + date.value,
+        time ? 'Time: ' + time : null,
+        msg ? 'Notes: ' + msg : null,
+        '',
+        'Sent from veloratravels.com'
+      ].filter(Boolean);
+
+      var url = 'https://wa.me/' + WHATSAPP_NUMBER + '?text=' + encodeURIComponent(lines.join('\n'));
+
+      if (success) success.classList.add('show');
+
+      setTimeout(function(){
+        window.open(url, '_blank', 'noopener');
+        if (success){
+          setTimeout(function(){ success.classList.remove('show'); }, 4000);
+        }
+      }, 350);
+    });
+  }
+
+  /* ---------------------------------------------------------
+     TO TOP
+  --------------------------------------------------------- */
+  if (toTop){
+    toTop.addEventListener('click', function(){
+      window.scrollTo({ top: 0, behavior: reduceMotion ? 'auto' : 'smooth' });
+    });
+  }
+
+  /* ---------------------------------------------------------
+     ACTIVE NAV LINK ON SCROLL
+  --------------------------------------------------------- */
+  var sections = document.querySelectorAll('section[id]');
+  var navLinks = document.querySelectorAll('.nav-links a');
+  if ('IntersectionObserver' in window && sections.length && navLinks.length){
+    var sio = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if (entry.isIntersecting){
+          var id = entry.target.getAttribute('id');
+          navLinks.forEach(function(a){
+            a.classList.toggle('active', a.getAttribute('href') === '#' + id);
+          });
+        }
+      });
+    }, { rootMargin: '-45% 0px -50% 0px' });
+    sections.forEach(function(s){ sio.observe(s); });
+  }
+
+})();
+</script>
 </body>
-
-
-<!-- Mirrored from mixdesign.dev/themeforest/rayo/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 22 May 2026 08:14:10 GMT -->
-
 </html>
